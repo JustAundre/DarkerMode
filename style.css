@@ -24,12 +24,12 @@ body,html{
     text-align: center;
 }
 .content h1{
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 60px;
     letter-spacing: 16px;
 }
 .content a{
-    background: #ffffff;
+    background: #000000;
     padding: 10px 24px;
     color: #ffffff;
     text-decoration: none;
