@@ -22,3 +22,8 @@ body,html{
     text-transform: uppercase;
     text-align: center;
 }
+.content h1{
+    color:white;
+    font-size: 60px;
+    letter-spacing: 16px;
+}
