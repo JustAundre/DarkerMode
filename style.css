@@ -13,7 +13,6 @@ body,html{
     background-image: url(https://wallpaperaccess.com/full/8436173.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation: slide 10s infinite;
 }
 .content{
     position: absolute;
@@ -24,14 +23,14 @@ body,html{
     text-align: center;
 }
 .content h1{
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-size: 100px;
     letter-spacing: 16px;
 }
 .content a{
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     padding: 10px 24px;
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     font-size: 30px;
     border-radius: 25px;
@@ -41,16 +40,4 @@ p{
     font-size: 20px;
     padding: 10px;
     line-height: 24px;
-}
-
-@keyframes slide {
-    0%{
-        background-image: url{https://s.yimg.com/ny/api/res/1.2/6t4g0cdW667xHIPDP8QkRw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTQ4MDtjZj13ZWJw/https://media.zenfs.com/en-US/homerun/businessinsider.com/054eb9e135cd8a61343ccdbe087c1ffc};
-    }
-    33%{
-        background-image: url{https://w0.peakpx.com/wallpaper/920/536/HD-wallpaper-minecraft-lms-xbox.jpg};
-    }
-    67%{
-        background-image: url{https://e1.pxfuel.com/desktop-wallpaper/174/903/desktop-wallpaper-microsoft-and-mojang-release-minecraft-education-pack-to-help-minecraft.jpg};
-    }
 }
