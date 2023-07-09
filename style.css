@@ -29,9 +29,9 @@ body,html{
     letter-spacing: 16px;
 }
 .content a{
-    background: #000000;
+    background: #ffffff;
     padding: 10px 24px;
-    color: #000000;
+    color: #ffffff;
     text-decoration: dotted;
     font-size: 18px;
     border-radius: 20px;
