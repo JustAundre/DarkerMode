@@ -14,3 +14,12 @@ body,html{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    
+}
