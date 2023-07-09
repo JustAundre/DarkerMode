@@ -10,5 +10,7 @@ body,html{
     height: 100%;
     overflow: hidden;
     position: relative;
-    background-image: url(https://wallpaperaccess.com/full/8436173.jpg)
+    background-image: url(https://wallpaperaccess.com/full/8436173.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
