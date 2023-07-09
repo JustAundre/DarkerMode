@@ -2,8 +2,8 @@ body,html{
     margin: 0;
     padding: 0;
     font-family: cursive;
-    width: 200%;
-    height: 200%;
+    width: 100%;
+    height: 100%;
 }
 .section-top{
     width: 100%;
@@ -25,7 +25,7 @@ body,html{
 }
 .content h1{
     color:rgb(0, 0, 0);
-    font-size: 60px;
+    font-size: 100px;
     letter-spacing: 16px;
 }
 .content a{
@@ -33,8 +33,8 @@ body,html{
     padding: 10px 24px;
     color: #000000;
     text-decoration: none;
-    font-size: 18px;
-    border-radius: 20px;
+    font-size: 30px;
+    border-radius: 25px;
 }
 
 p{
