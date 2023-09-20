@@ -9,16 +9,16 @@
 
 <body class="background"></body>
 
-<footer class="footer">  
-  <button class="VTScan"><a href="https://www.virustotal.com/gui/home/upload/">
+<footer id="footer" class="footer">  
+  <button id="lower-buttons" class="VTScan"><a href="https://www.virustotal.com/gui/home/upload/">
   <img style="vertical-align: middle" src="https://github.com/ItsAundre/DarkerMode/blob/main/virus-total.ong.png?raw=true" width="40" height="40"></a></button>
 
-  <button class="Wiki"><a href="https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack">
+  <button id="lower-buttons" class="Wiki"><a href="https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack">
  <img style="vertical-align: middle" src="https://raw.githubusercontent.com/ItsAundre/DarkerMode/main/wiki.png" width="50" height="40"></a></button>
   
-  <button class="Launcher"><a href="https://multimc.org/" download="MultiMC"><img style="vertical-align: middle" src="https://raw.githubusercontent.com/ItsAundre/DarkerMode/2ed8bcc71844d32864bb0a0c4fb8cec5a45e82b6/multimc.svg" width="40" height="40"></a></button>
+  <button id="lower-buttons" class="Launcher"><a href="https://multimc.org/" download="MultiMC"><img style="vertical-align: middle" src="https://raw.githubusercontent.com/ItsAundre/DarkerMode/2ed8bcc71844d32864bb0a0c4fb8cec5a45e82b6/multimc.svg" width="40" height="40"></a></button>
   
-  <button class="Java-Download"><a href="OpenJDK17U-jre_x64_windows_hotspot_17.0.7_7.zip" download="OpenJDK17U-jre_x64_windows_hotspot_17.zip"><img style="vertical-align: middle" src="https://github.com/ItsAundre/DarkerMode/blob/main/Java.png?raw=true" width="40" height="40"></a></button>
+  <button id="lower-buttons" class="Java-Download"><a href="OpenJDK17U-jre_x64_windows_hotspot_17.0.7_7.zip" download="OpenJDK17U-jre_x64_windows_hotspot_17.zip"><img style="vertical-align: middle" src="https://github.com/ItsAundre/DarkerMode/blob/main/Java.png?raw=true" width="40" height="40"></a></button>
   
 </footer> 
 <footer class="top-footer">
@@ -94,7 +94,7 @@
     font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     top: 0%; }
 
-  .VTScan {
+    .VTScan {
     border-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
     padding-left: 10px;
@@ -105,7 +105,7 @@
     margin-right: 10px;
     Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; }
     
-  .Wiki {
+    .Wiki {
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -128,7 +128,7 @@
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0); }
 
-  .Java-Download {
+    .Java-Download {
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -138,5 +138,15 @@
     font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0); }
+
+    #lower-buttons:hover {
+    transform: scale(1.2, 1.2);
+	transition: 300ms all;
+    }
+    
+    #lower-buttons:active {
+    transform: scale(0.9, 0.9);
+    transition: 300ms all;
+    }
 </style>
 </html>
