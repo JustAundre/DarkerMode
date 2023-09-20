@@ -10,14 +10,18 @@
 <body class="background"></body>
 
 <footer class="footer">  
-  <a href="https://www.virustotal.com/gui/file/e121e4d289750bd65895067d9826de3be1f6280653524bbc4ac3be49a3f33632/detection"><button class="VTScan"><strong>VirusTotal </strong>Scan</button>
-  </a>
-  <a href="https://www.youtube.com/channel/UC_zkPmye_77pN0zMWlgOrlQ"><button class="Youtube"><strong>YouTube</strong></button></a>
-  <a href="https://multimc.org/"><button class="Launcher"><strong>MultiMC Launcher</strong></button></a>
-  <a href="OpenJDK17U-jre_x64_windows_hotspot_17.0.7_7.zip" download="OpenJDK17U-jre_x64_windows_hotspot_17.zip"><button class="Java-Download"><strong>Java 17</strong></button></a>
+  <a class="VTScan" href="https://www.virustotal.com/gui/home/upload/">
+  <img style="vertical-align: middle" alt="VirusTotalRedirect" id="VirusTotal" src="https://o.remove.bg/downloads/a8fad483-1d94-4fd8-b25c-39b24caefd18/virustotal_logo_icon_171247-removebg-preview.png" width="60" height="60"></a>
+  <a class="Wiki" href="https://minecraft.fandom.com/wiki/Tutorials/Loading_a_resource_pack">
+ <img style="vertical-align: middle" alt="Java-Download" id="OpenJDK" src="https://o.remove.bg/downloads/d09e7501-bc7b-4b59-88f5-e3b13e7f8d1a/image-removebg-preview.png" width="70" height="60"></a>
+  
+  <a class="Launcher" href="https://multimc.org/" download="MultiMC"><img style="vertical-align: middle" alt="MultiMC-Download" id="MultiMC" src="https://quiltmc.org/assets/img/launchers/multimc.svg" width="60" height="60"></a>
+  
+  <a href="OpenJDK17U-jre_x64_windows_hotspot_17.0.7_7.zip" download="OpenJDK17U-jre_x64_windows_hotspot_17.zip"><button class="Java-Download"><img style="vertical-align: middle" alt="Java-Download" id="OpenJDK" src="https://o.remove.bg/downloads/783bc420-c915-42ec-b3bc-5ad458370b54/image-removebg-preview.png" width="60" height="60"></a>
+  
 </footer> 
 <footer class="top-footer">
-  <strong>A</strong> <a class="GithubRedirect" href="https://www.minecraft.net/en-us"><img style="vertical-align:middle" alt="GitHub" width="100px" height="40px" id="GitHub_logo_2013" src="https://pluspng.com/img-png/minecraft-png-1920.png"></a>
+  <strong>A</strong> <a class="GithubRedirect" href="https://www.minecraft.net/en-us"><img style="vertical-align:middle" alt="GitHub" width="100px" height="40px" id="minecraft-png-1920" src="https://pluspng.com/img-png/minecraft-png-1920.png"></a>
   <i><strong>Resource-pack.<strong></a>
 </footer>
 
@@ -80,23 +84,9 @@ text-align: center;
 font-size: 20px;
 }
   .VTScan {
-    border-radius: 5px;
-    border-color: rgba(70, 70, 151);
-    background-color: rgba(70, 70, 151);
-    color: white;
-    font-size: 20px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif
-  }
-  .Youtube {
-  	    border-radius: 5px;
-    border-color: rgba(138, 0, 0);
-    background-color: rgba(255, 0, 0);
+  	border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     font-size: 20px;
     padding-left: 10px;
@@ -107,19 +97,27 @@ font-size: 20px;
     margin-right: 10px;
     Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   }
-  .Youtube:hover {
-    border-color: rgba(138, 17, 17);
-    background-color: rgba(255, 44, 44);
-    cursor: pointer;
+  .Wiki {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+  }
+  .Wiki:hover {
     transition: 1s;
   }
   .VTScan:hover {
-    border-color: rgba(86, 86, 170);
-    background-color: rgba(86, 86, 170);
-    cursor: pointer;
+
     transition: 1s;
   }
-  .Youtube:active {
+  .Wiki:active {
     transition: 250ms;
     color: red;
     background-color: red;
@@ -127,9 +125,7 @@ font-size: 20px;
   }
     .VTScan:active {
       transition: 250ms;
-      color: rgb(96, 96, 170);
-      background-color: rgb(96, 96, 170);
-      border-color: rgb(96, 96, 170);
+
     }
     .top-footer {
     position: fixed;   
@@ -141,56 +137,46 @@ font-size: 20px;
     top: 0%;
     }
     .Launcher {
-  	border-radius: 5px;
-    border-color: rgb(54, 31, 0);
-    background-color: rgb(54, 31, 0);
-    color: white;
-    font-size: 20px;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
   }
     .Launcher:hover {
-    border-color: rgb(0, 63, 0);
-    background-color: rgb(0, 63, 0);
-    cursor: pointer;
-    transition: 1s;
+
+    transition: 1s all;
   }
   .Launcher:active {
-    transition: 250ms;
-    color: rgb(0, 83, 0);
-    background-color: rgb(0, 83, 0);
-    border-color: rgb(0, 83, 0);
+    transition: 250ms all;
+
   }
   .Java-Download {
-  	border-radius: 5px;
-    border-color: rgb(255, 152, 47);
-    background-color: rgb(255, 152, 47);
-    color: white;
-    font-size: 20px;
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
   }
-    .Java-Download:hover {
-      border-color: rgb(255, 162, 47);
-    background-color: rgb(255, 162, 47);
-    cursor: pointer;
-    transition: 1s;
-  }
-  .Java-Download:active {
-    transition: 250ms;
-    color: rgb(255, 172, 47);
-    border-color: rgb(255, 172, 47);
-    background-color: rgb(255, 172, 47);
+  .Java-Download:hover {
+
+    transition: 1s all;
+}
+  .Java-Downloade:active {
+
+    transition: 250ms all;
   }
 </style>
 </html>
