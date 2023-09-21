@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<button class="DownloadDarkerMode"><a href="DarkerMode.zip" download="DarkerMode.zip">Darker Mode</a></button>
+<div class="center"><button id="DownloadDarkerMode" class="DownloadDarkerMode"><a href="DarkerMode.zip" download="DarkerMode.zip">Darker Mode</a></button></div></div></div>
 
-<p class="Text1">For <strong><i>Minecraft Java</strong> 1.20.1</i></p>
+<p class="Text1">For <strong>Minecraft Java</strong> 1.20.1</p>
 
 <title>TweakedMC</title>
 
@@ -27,126 +27,144 @@
 </footer>
 
 <style>
+  html {
+  height: 100%;
+  }
+  
+  body {
+  height: 100%;
+  }
+  
   .DownloadDarkerMode {
-    border: 3px solid #141414;
-    background-color: #141414;
-    color: #131313;
-    padding: 14px 32px;
-    font-size: 24px;
-    transition: 256ms all;
-    border-radius: 12px;
-    font-family: cursive;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  border: 3px solid #141414;
+  background-color: #141414;
+  color: #131313;
+  margin: 14px 32px;
+  font-size: 24px;
+  transition: 256ms all;
+  border-radius: 12px;
+  font-family: cursive;
   }
-  .DownloadDarkerMode:hover {
-    background-color: #1a1a1a;
-    color: #252525;
-    transition: 550ms all;
-    box-shadow: 5px 5px 8.5px rgba(0, 0, 0, 0.7);
+  
+  #DownloadDarkerMode:hover {
+  background-color: #1a1a1a;
+  color: #252525;
+  transform: scale(1.05);
+  transition: 500ms all;
+  box-shadow: 5px 5px 8.5px rgba(0, 0, 0, 0.7);
 }
-  .DownloadDarkerMode:active {
-    background-color: #292929;
-    color: #292929;
-    border-color: #292929;
-    transition: 100ms all;
+
+  #DownloadDarkerMode:active {
+  background-color: #292929;
+  color: #292929;
+  border-color: #292929;
+  transform: scale(0.9);
+  transition: 100ms all;
   }
-      button {border-style: solid;}
-      a {color: inherit; } 
-      a {text-decoration: none;}
-      button.hover {
-      cursor: pointer;
-      }
+  
+  button {border-style: solid;}
+  a {color: inherit; } 
+  a {text-decoration: none;}
+  button.hover {
+  cursor: pointer;
+  }
+  
   .Text1 {
-    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    font-size: 40px;
-    text-shadow: 3px;
-    color: #000000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 0%); }
+  Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 40px;
+  text-shadow: 3px;
+  color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%); }
 
-    .background {
-    background-image: url("https://raw.githubusercontent.com/ItsAundre/DarkerMode/main/mc1.jpg");
-    background-color: #1a1a1a; }
+  .background {
+  background-image: url("https://raw.githubusercontent.com/ItsAundre/DarkerMode/main/mc1.jpg");
+  background-color: #1a1a1a; }
 
-    .footer {  
-    position: fixed;  
-    left: 0px;  
-    bottom: 0px;  
-    right: 0px;   
-    width: 100%;  
-    height: 60px;
-    background-color: rgba(24, 24, 24, 0.75);  
-    color: white;  
-    text-align: center;
-    font-size: 20px; }
+  .footer {  
+  position: fixed;  
+  left: 0px;  
+  bottom: 0px;  
+  right: 0px;   
+  width: 100%;  
+  height: 60px;
+  background-color: rgba(24, 24, 24, 0.75);  
+  color: white;  
+  text-align: center;
+  font-size: 20px; }
 
-    .top-footer {
-    position: fixed;   
-    width: 100%;  
-    background-color: rgba(24, 24, 24, 0.75);  
-    color: white;  
-    font-size: 25px;
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    top: 0%; }
+  .top-footer {
+  position: fixed;   
+  width: 100%;  
+  background-color: rgba(24, 24, 24, 0.75);  
+  color: white;  
+  font-size: 25px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  top: 0%; }
+  
+  .center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  }
+  
+  .VTScan {
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; }
+  
+  .Wiki {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  position: center; }
 
-    .VTScan {
-    border-color: rgba(0, 0, 0, 0);
-    background-color: rgba(0, 0, 0, 0);
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; }
-    
-    .Wiki {
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0);
-    position: center; }
+  .Launcher {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0); }
 
-    .Launcher {
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0); }
+  .Java-Download {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0); }
 
-    .Java-Download {
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0); }
-
-    #lower-buttons:hover {
-    transform: scale(1.2, 1.2);
+  #lower-buttons:hover {
+  transform: scale(1.2, 1.2);
 	transition: 300ms all;
-    }
-    
-    #lower-buttons:active {
-    transform: scale(0.9, 0.9);
-    transition: 300ms all;
-    }
+  }
+  
+  #lower-buttons:active {
+  transform: scale(0.9, 0.9);
+  transition: 300ms all;
+  }
 </style>
 </html>
