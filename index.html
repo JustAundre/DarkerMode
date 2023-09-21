@@ -19,16 +19,11 @@
   <button id="lower-buttons" class="Launcher"><a href="https://multimc.org/" download="MultiMC"><img class="lower-button-img" style="vertical-align: middle" src="https://raw.githubusercontent.com/ItsAundre/DarkerMode/2ed8bcc71844d32864bb0a0c4fb8cec5a45e82b6/multimc.svg"></a></button>
   
   <button id="lower-buttons" class="Java-Download"><a href="OpenJDK17U-jre_x64_windows_hotspot_17.0.7_7.zip" download="OpenJDK17U-jre_x64_windows_hotspot_17.zip"><img class="lower-button-img" style="vertical-align: middle" src="https://github.com/ItsAundre/DarkerMode/blob/main/Java.png?raw=true"></a></button>
-  
-  </div> 
-<div class="top-footer">
-
 </footer>
 
-<script>
-let bg-music = document.getElementById("Blue Boi.mp3");
-bg-music.volume = 0.2;
-</script>
+<footer class="top-footer">
+<a href="https://github.com/ItsAundre/DarkerMode/blob/main/credits.txt">Credits</a>
+</footer>
 
 <style>
   html {
@@ -136,6 +131,7 @@ bg-music.volume = 0.2;
   font-size: 25px;
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   height: 30px;
+  color: rgb(30, 30, 30);
   top: 0%; }
   
   .center {
@@ -198,6 +194,9 @@ bg-music.volume = 0.2;
   }
 </style>
 
-<audio src="Blue Boi.mp3"></audio>
+<audio id="BlueBoi" src="https://github.com/ItsAundre/DarkerMode/raw/main/Blue%20Boi.mp3" autoplay loop></audio>
+<script>
+document.getElementById("BlueBoi").volume = .025;
+</script>
 
 </html>
