@@ -61,8 +61,6 @@ button{
   height: 25%;}
 
 .MinecraftLogo{
-  width: 35vw;
-  min-width: fit-content;
   position: fixed;}
 
 .background{
@@ -181,3 +179,20 @@ button{
 #lower-button-img:active{
   transform: scale(0.75);
   transition: 500ms all ease-in-out;}
+
+@media (orientation: landscape){
+  .MinecraftLogo{
+    width: 35vw;
+    height: 13vh;
+  max-width: fit-content;}
+}
+@media (orientation: portrait){
+  .MinecraftLogo{
+    width: 50vw;
+    height: 18.5705vh;}
+  .DownloadDarkerMode{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 30vw;
+    padding-right: 30vw;}
+}
