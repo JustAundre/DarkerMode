@@ -183,12 +183,12 @@ button{
 @media (orientation: landscape){
   .MinecraftLogo{
     width: 40vw;
-    height: 16vh;}
+    height: 20vh;}
 }
 @media (orientation: portrait){
   .MinecraftLogo{
-    width: 80vw;
-    height: 20vh;}
+    width: 90vw;
+    height: 16.5vh;}
 
   .DownloadDarkerMode{
     padding-top: 5vh;
