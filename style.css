@@ -63,8 +63,7 @@ button{
 .MinecraftLogo{
   width: 35vw;
   min-width: fit-content;
-  position: fixed;
-  min-height: 13.5vh;}
+  position: fixed;}
 
 .background{
   background-image: url("https://itsaundre.github.io/DarkerMode/images/mc1.jpg");
