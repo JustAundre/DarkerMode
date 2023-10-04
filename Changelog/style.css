@@ -1,16 +1,13 @@
-<style>
 html{height: 100%;}
 body{height: 100%;}
 
 .lower-button-img{
 width: 4.8vh;
-height: 4.8vh;
-transition: 500ms all ease-in-out;}
+transition: 250ms ease-in-out;}
 
 .lower-button-img2{
 width: 5.8vh;
-height: 4.8vh;
-transition: 500ms all ease-in-out;}
+transition: 250ms ease-in-out;}
 
 a{color: inherit; text-decoration: none;} 
 a:hover{cursor: pointer;}
