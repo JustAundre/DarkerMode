@@ -182,18 +182,18 @@ button{
 
 @media (orientation: landscape){
   .MinecraftLogo{
-    width: 35vw;
-    height: 13vh;
-  max-width: fit-content;}
+    width: 40vw;
+    height: 16vh;}
 }
 @media (orientation: portrait){
   .MinecraftLogo{
-    width: 50vw;
-    height: 18.5705vh;}
+    width: 80vw;
+    height: 20vh;}
 
   .DownloadDarkerMode{
     padding-top: 5vh;
     padding-bottom: 5vh;
     padding-left: 30vw;
-    padding-right: 30vw;}
+    padding-right: 30vw;
+    font-size: xx-large;}
 }
