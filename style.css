@@ -192,11 +192,11 @@ button{
     padding-right: 15vw;
     font-size: 6vw;}
 
-    .lower-button-img{
-      height: 4.6vh;
+  .lower-button-img{
+    height: 4.6vh;
       transition: 250ms ease-in-out;}
     
-    .lower-button-img2{
-      height: 4.6vh;
-      transition: 250ms ease-in-out;}
+  .lower-button-img2{
+    height: 4.6vh;
+    transition: 250ms ease-in-out;}
 }
