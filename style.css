@@ -61,6 +61,7 @@ button{
   height: 25%;}
 
 .MinecraftLogo{
+  width: 40vw;
   position: fixed;}
 
 .background{
@@ -177,23 +178,25 @@ button{
   transition: 500ms all ease-in-out;}
 
 #lower-button-img:active{
-  transform: scale(0.75);
+  transform: scale(0.8);
   transition: 500ms all ease-in-out;}
 
-@media (orientation: landscape){
-  .MinecraftLogo{
-    width: 40vw;
-    height: 18vh;}
-}
 @media (orientation: portrait){
   .MinecraftLogo{
-    width: 90vw;
-    height: 16.5vh;}
+    width: 90vw;}
 
   .DownloadDarkerMode{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    padding-left: 30vw;
-    padding-right: 30vw;
-    font-size: xx-large;}
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 6vw;}
+
+    .lower-button-img{
+      height: 4.6vh;
+      transition: 250ms ease-in-out;}
+    
+    .lower-button-img2{
+      height: 4.6vh;
+      transition: 250ms ease-in-out;}
 }
