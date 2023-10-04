@@ -183,7 +183,7 @@ button{
 @media (orientation: landscape){
   .MinecraftLogo{
     width: 40vw;
-    height: 20vh;}
+    height: 18vh;}
 }
 @media (orientation: portrait){
   .MinecraftLogo{
