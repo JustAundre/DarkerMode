@@ -179,26 +179,20 @@ button{
   transition: 500ms all ease-in-out;}
 
 #lower-button-img:active{
-  transform: scale(0.8);
-  transition: 500ms all ease-in-out;}
+  transform: scale(0.8);}
 
-.Details-Button, .UpdateLog-Button{
-  text-align: center;
-  display: flex;
-  align-items: center;
-  width: 50%;
-  height: 100%;
+.Details, .Changelog{
+  transition: 500ms all ease-in-out;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
+  height: 100%;
+  width: 100%;
   border-radius: 5px;
   border-color: rgba(0, 0, 0, 0);}
 
-.Details-Button:hover, .UpdateLog-Button:hover{
+.Details:hover, .Changelog:hover{
   background-color: rgba(255, 255, 255, 0.125);
-  border-color: rgba(255, 255, 255, 0.125);
-  text-align: center;}
-
-.bdivb1, .bdivb2{
-  vertical-align: middle;}
+  border-color: rgba(255, 255, 255, 0.125);}
 
 @media (orientation: portrait){
   .MinecraftLogo{
