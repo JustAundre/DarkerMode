@@ -192,13 +192,6 @@ button{
   border-color: rgba(255, 255, 255, 0.125);
   text-align: center;}
 
-.bdivb1, .bdivb2{
-  width: 50%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;}
-
 @media (orientation: portrait){
   .MinecraftLogo{
     width: 90vw;}
