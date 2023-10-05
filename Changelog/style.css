@@ -134,6 +134,9 @@ a:hover{
   transform: scale(0.75);
   transition: 500ms all ease-in-out;}
 
+.changelogdiv{
+  text-align: center; display: flex; justify-content: center; align-items: center;}
+
 .Title{
   top: 75%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 4vh; display: flex; align-items: center; justify-content: center; color: white;}
 .Line-a1{
