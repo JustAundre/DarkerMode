@@ -150,15 +150,12 @@ a:hover{
   
 .Line-a5{
   top: 50%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 18px; display: flex; align-items: center; justify-content: center; color: white;}
-  
-.Line-a6{
-  top: 45%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 18px; display: flex; align-items: center; justify-content: center; color: white;}
-  
+
 .changelogdiv{
   width: 100%; top: 25%; background-color: rgba(24, 24, 24, 0.5); text-align: center; display: inline-block; flex-wrap: wrap; align-items: center; position: fixed;}
   
 @media (orientation: portrait){
-  .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5, .Line-a6{
+  .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
     font-size: 2vh;}
   .Title{
     font-size: 3.5vh;}}
