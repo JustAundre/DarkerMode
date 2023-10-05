@@ -135,31 +135,30 @@ a:hover{
   transition: 500ms all ease-in-out;}
 
 .Title{
-  height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 4vh; display: flex; align-items: center; justify-content: center; color: white;}
+  top: 75%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 4vh; display: flex; align-items: center; justify-content: center; color: white;}
 .Line-a1{
-  height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
-
+  top: 70%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+  
 .Line-a2{
-  height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
-
+  top: 65%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+  
 .Line-a3{
-  height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
-
+  top: 60%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+  
 .Line-a4{
-  height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
-
+  top: 55%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+  
 .Line-a5{
-  height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
-
+  top: 50%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+  
 .Line-a6{
-  height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
-
+  top: 45%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+  
 .changelogdiv{
-  width: 100%; height: 35%; top: 25%; background-color: rgba(24, 24, 24, 0.5); text-align: center; display: flex; flex-wrap: wrap; align-items: center; position: fixed;}
-
+  width: 100%; top: 25%; background-color: rgba(24, 24, 24, 0.5); text-align: center; display: inline-block; flex-wrap: wrap; align-items: center; position: fixed;}
+  
 @media (orientation: portrait){
-    .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5, .Line-a6{
-      font-size: 2vh;}
-    .Title{
-      font-size: 3.5vh;}
-    }
+  .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5, .Line-a6{
+    font-size: 2vh;}
+  .Title{
+    font-size: 3.5vh;}}
