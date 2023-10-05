@@ -137,24 +137,24 @@ transform: scale(0.75);
 transition: 500ms all ease-in-out;}
 
 .Title{
-top: 75%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 5vh; display: flex; align-items: center; justify-content: center; color: white;}
+top: 75%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 5vw; display: flex; align-items: center; justify-content: center; color: white;}
 .Line-a1{
-top: 70%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+top: 70%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vw; display: flex; align-items: center; justify-content: center; color: white;}
 
 .Line-a2{
-top: 65%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+top: 65%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vw; display: flex; align-items: center; justify-content: center; color: white;}
 
 .Line-a3{
-top: 60%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+top: 60%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vw; display: flex; align-items: center; justify-content: center; color: white;}
 
 .Line-a4{
-top: 55%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+top: 55%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vw; display: flex; align-items: center; justify-content: center; color: white;}
 
 .Line-a5{
-top: 50%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+top: 50%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vw; display: flex; align-items: center; justify-content: center; color: white;}
 
 .Line-a6{
-top: 45%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vh; display: flex; align-items: center; justify-content: center; color: white;}
+top: 45%; height: 5vh; width: 100%; background-color: none; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vw; display: flex; align-items: center; justify-content: center; color: white;}
 
 .changelogdiv{
 width: 100%; height: 35%; top: 25%; position: absolute; background-color: rgba(24, 24, 24, 0.5);}
