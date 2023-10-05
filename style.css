@@ -102,7 +102,7 @@ button{
   position: fixed;
   width: 100%;
   background-color: rgba(24, 24, 24, 0.5);
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 25px;
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   height: 30px;
@@ -199,4 +199,13 @@ button{
   .lower-button-img2{
     height: 4.6vh;
     transition: 250ms ease-in-out;}
+  
+  .Details-Button, .UpdateLog-Button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    height: 100%;}
 }
