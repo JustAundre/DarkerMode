@@ -159,7 +159,7 @@ a:hover{
 
 @media (orientation: landscape){
     .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5, .Line-a6{
-      font-size: 2.5vh;}
+      font-size: 2vh;}
     .Title{
-      font-size: 4vh;}
+      font-size: 3.5vh;}
     }
