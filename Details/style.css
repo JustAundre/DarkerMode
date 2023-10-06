@@ -149,11 +149,14 @@ a:hover{
   
 @media (orientation: portrait){
   .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
-    font-size: 2vh;}
+    font-size: 2.3vh;}
 
   .lower-button-img .lower-button-img2{
     height: 4.6vh;
     transition: 250ms ease-in-out;}
+
+  .changelogdiv{
+    border-radius: 2vh;}
   
   .Title{
-  font-size: 3.5vh;}}
+  font-size: 3.3vh;}}
