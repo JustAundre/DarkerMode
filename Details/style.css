@@ -14,7 +14,7 @@ a:hover{
   border-style: solid;}
 
 .background{
-  background-image: url("https://itsaundre.github.io/DarkerMode/images/mc1.jpg");
+  background-image: url("/DarkerMode/images/mc1.jpg");
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,5 +150,10 @@ a:hover{
 @media (orientation: portrait){
   .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
     font-size: 2vh;}
+
+  .lower-button-img .lower-button-img2{
+    height: 4.6vh;
+    transition: 250ms ease-in-out;}
+  
   .Title{
-    font-size: 3.5vh;}}
+  font-size: 3.5vh;}}

@@ -57,7 +57,7 @@ button{
   position: fixed;}
 
 .background{
-  background-image: url("https://itsaundre.github.io/DarkerMode/images/mc1.jpg");
+  background-image: url("/DarkerMode/images/mc1.jpg");
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,13 +186,14 @@ button{
   height: 100%;
   width: 100%;
   border-radius: 5px;
-  color: white;
+  color: rgb(200, 200, 200);
   font-size: 1.5vw;
   border-color: rgba(0, 0, 0, 0);}
 
 .Details:hover, .Changelog:hover{
   background-color: rgba(255, 255, 255, 0.125);
   border-color: rgba(255, 255, 255, 0.125);
+  color: rgb(255, 255, 255);
   font-size: 1.65vw;}
 
 .topbdiv1, .topbdiv2{
@@ -217,11 +218,7 @@ button{
     padding-right: 15vw;
     font-size: 6vw;}
 
-  .lower-button-img{
-    height: 4.6vh;
-      transition: 250ms ease-in-out;}
-    
-  .lower-button-img2{
+  .lower-button-img .lower-button-img2{
     height: 4.6vh;
     transition: 250ms ease-in-out;}
 }
