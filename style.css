@@ -187,12 +187,13 @@ button{
   width: 100%;
   border-radius: 5px;
   color: white;
-  font-size: 18px;
+  font-size: 1.5vw;
   border-color: rgba(0, 0, 0, 0);}
 
 .Details:hover, .Changelog:hover{
   background-color: rgba(255, 255, 255, 0.125);
-  border-color: rgba(255, 255, 255, 0.125);}
+  border-color: rgba(255, 255, 255, 0.125);
+  font-size: 1.65vw;}
 
 .topbdiv1, .topbdiv2{
   translate: -1%;
@@ -202,6 +203,12 @@ button{
 @media (orientation: portrait){
   .MinecraftLogo{
     width: 90vw;}
+  
+  .Details, .Changelog{
+    font-size: 2vh;}
+
+  .Details:hover, .Changelog:hover{
+    font-size: 2.2vh;}
 
   .DownloadDarkerMode{
     padding-top: 3vh;
