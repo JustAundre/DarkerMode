@@ -134,7 +134,8 @@ a:hover{
 
 .Title{
   top: 75%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vw; display: flex; align-items: center; justify-content: center; color: white;}
-.Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
+
+  .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
   top: 70%;
   height: auto;
   width: 100%;
