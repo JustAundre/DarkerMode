@@ -71,7 +71,7 @@ a:hover{
 .VTScan{
   border-color: rgba(0, 0, 0, 0);
   background-color: rgba(0, 0, 0, 0);
-  transition: 100ms all ease-in-out;
+  transition: 250ms all ease-in-out;
   height: 100%;
   width: 100%;
   border-radius: 5px;
@@ -81,14 +81,14 @@ a:hover{
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  transition: 100ms all ease-in-out;
+  transition: 250ms all ease-in-out;
   height: 100%;
   width: 100%;
   border-radius: 5px;
   position: center;}
 
 .Launcher{
-  transition: 100ms all ease-in-out;
+  transition: 250ms all ease-in-out;
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
   height: 100%;
@@ -97,7 +97,7 @@ a:hover{
   border-color: rgba(0, 0, 0, 0);}
 
 .Java-Download{
-  transition: 100ms all ease-in-out;
+  transition: 250ms all ease-in-out;
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
   height: 100%;
@@ -128,11 +128,11 @@ a:hover{
 
 #lower-button-img:hover{
   transform: scale(1.15);
-  transition: 100ms all ease-in-out;}
+  transition: 250ms all ease-in-out;}
 
 #lower-button-img:active{
   transform: scale(0.75);
-  transition: 100ms all ease-in-out;}
+  transition: 250ms all ease-in-out;}
 
 .lower-button-img, .lower-button-img2{
   object-fit: contain;
