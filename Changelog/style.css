@@ -152,6 +152,6 @@ a:hover{
   
 @media (orientation: portrait){
   .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
-    font-size: 2vh;}
+    font-size: 1.75vh;}
   .Title{
-    font-size: 3.5vh;}}
+    font-size: 3vh;}}
