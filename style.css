@@ -4,14 +4,6 @@ html{
 body{
   height: 100%;}
 
-.lower-button-img{
-  height: 4.8vh;
-  transition: 250ms ease-in-out;}
-
-.lower-button-img2{
-  height: 4.8vh;
-  transition: 250ms ease-in-out;}
-
 .DownloadDarkerMode{
   border: 3px solid #141414;
   background-color: #141414;
@@ -179,13 +171,14 @@ button{
   transition: 250ms all ease-in-out;}
 
 #lower-button-img:active{
-  transform: scale(0.8);
+  transform: scale(0.9);
   transition: 250ms all ease-in-out;}
 
 .lower-button-img, .lower-button-img2{
   width: 25vw;
-  height: 5.5vh;
-  object-fit: contain;}
+  height: 5vh;
+  object-fit: contain;
+  transition: 250ms ease-in-out all}
 
 .Details, .Changelog{
   transition: 250ms all ease-in-out;

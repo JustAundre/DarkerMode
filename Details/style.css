@@ -4,14 +4,6 @@ html{
 body{
   height: 100%;}
 
-.lower-button-img{
-  width: 4.8vh;
-  transition: 250ms ease-in-out;}
-
-.lower-button-img2{
-  width: 5.8vh;
-  transition: 250ms ease-in-out;}
-
 a{
   color: inherit; text-decoration: none;} 
 
@@ -105,7 +97,6 @@ a:hover{
   border-radius: 5px;
   border-color: rgba(0, 0, 0, 0);}
 
-
 #VTScan:hover{
   background-color: rgb(126, 165, 197);
   border-radius: 5px;
@@ -131,13 +122,14 @@ a:hover{
   transition: 250ms all ease-in-out;}
 
 #lower-button-img:active{
-  transform: scale(0.75);
+  transform: scale(0.9);
   transition: 250ms all ease-in-out;}
 
 .lower-button-img, .lower-button-img2{
+  width: 25vw;
+  height: 5vh;
   object-fit: contain;
-  height: 5.5vh;
-  width: 25vw;}
+  transition: 250ms ease-in-out all;}
 
 .Title{
   top: 75%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vw; display: flex; align-items: center; justify-content: center; color: white;}
