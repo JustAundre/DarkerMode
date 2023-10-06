@@ -136,7 +136,7 @@ a:hover{
   top: 75%; height: 5vh; width: 100%; font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif; font-size: 2.5vw; display: flex; align-items: center; justify-content: center; color: white;}
 .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
   top: 70%;
-  height: 5vh;
+  height: auto;
   width: 100%;
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   font-size: 1.5vw;
@@ -154,6 +154,7 @@ a:hover{
   display: inline-block;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 2vh;
   position: fixed;}
   
 @media (orientation: portrait){
