@@ -63,7 +63,7 @@ a:hover{
 .VTScan{
   border-color: rgba(0, 0, 0, 0);
   background-color: rgba(0, 0, 0, 0);
-  transition: 400ms all ease-in-out;
+  transition: 500ms all ease-in-out;
   height: 100%;
   width: 100%;
   border-radius: 5px;
@@ -73,14 +73,14 @@ a:hover{
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  transition: 400ms all ease-in-out;
+  transition: 500ms all ease-in-out;
   height: 100%;
   width: 100%;
   border-radius: 5px;
   position: center;}
 
 .Launcher{
-  transition: 400ms all ease-in-out;
+  transition: 500ms all ease-in-out;
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
   height: 100%;
@@ -89,7 +89,7 @@ a:hover{
   border-color: rgba(0, 0, 0, 0);}
 
 .Java-Download{
-  transition: 400ms all ease-in-out;
+  transition: 500ms all ease-in-out;
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
   height: 100%;

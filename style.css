@@ -112,7 +112,7 @@ button{
 .VTScan{
   border-color: rgba(0, 0, 0, 0);
   background-color: rgba(0, 0, 0, 0);
-  transition: 400ms all ease-in-out;
+  transition: 500ms all ease-in-out;
   height: 100%;
   width: 100%;
   border-radius: 5px;
@@ -122,13 +122,13 @@ button{
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
-  transition: 400ms all ease-in-out;
+  transition: 500ms all ease-in-out;
   height: 100%;
   width: 100%;
   border-radius: 5px;}
 
 .Launcher{
-  transition: 400ms all ease-in-out;
+  transition: 500ms all ease-in-out;
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
   height: 100%;
@@ -137,7 +137,7 @@ button{
   border-color: rgba(0, 0, 0, 0);}
 
 .Java-Download{
-  transition: 400ms all ease-in-out;
+  transition: 500ms all ease-in-out;
   font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0);
   height: 100%;
