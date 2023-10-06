@@ -158,6 +158,9 @@ a:hover{
   align-items: center;
   margin-top: 2vh;
   position: fixed;}
+
+.Fourms-Colored{
+  color: rgb(228, 216, 255);}
   
 @media (orientation: portrait){
   .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
