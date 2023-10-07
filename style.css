@@ -166,7 +166,7 @@ button{
   border-color: rgb(255, 166, 0);}
 
 #lower-button-img:hover{
-  transform: scale(1.15);
+  transform: scale(1.1);
   transition: 250ms all ease-in-out;}
 
 #lower-button-img:active{
@@ -203,7 +203,7 @@ button{
 
 @media (orientation: portrait){
   .MinecraftLogo{
-    width: 90vw;}
+    width: 100vw;}
   
   .Details, .Changelog{
     font-size: 2vh;}
@@ -212,11 +212,11 @@ button{
     font-size: 2.2vh;}
 
   .DownloadDarkerMode{
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    padding-left: 15vw;
-    padding-right: 15vw;
-    font-size: 6vw;}
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    font-size: 3vh;}
 
   .lower-button-img .lower-button-img2{
     height: 4.6vh;
