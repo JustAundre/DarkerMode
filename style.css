@@ -32,14 +32,13 @@ button{
 #DownloadDarkerMode:hover{
   background-color: #1a1a1a;
   color: #252525;
-  transform: scale(1.025);
-  box-shadow: 5px 5px 8.5px rgba(0, 0, 0, 0.7);}
+  transform: scale(1.1);}
 
 #DownloadDarkerMode:active{
   background-color: #292929;
   color: #292929;
   border-color: #292929;
-  transform: scale(0.95);
+  transform: scale(0.9);
   transition: 100ms all;}
 
 .MinecraftLogoDiv{
