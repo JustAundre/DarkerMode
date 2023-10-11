@@ -190,6 +190,7 @@ button{
   border-color: rgba(0, 0, 0, 0);}
 
 .Details:hover, .Changelog:hover{
+  transition: 250ms all ease-in-out;
   background-color: rgba(255, 255, 255, 0.05);
   border-color: rgba(255, 255, 255, 0.05);
   color: rgb(255, 255, 255);
