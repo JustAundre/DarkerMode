@@ -145,24 +145,24 @@ button{
   border-color: rgba(0, 0, 0, 0);}
 
 #VTScan:hover{
-  background-color: rgba(126, 165, 197, 0.2);
+  background-color: rgba(126, 165, 197, 0.1);
   border-radius: 5px;
-  border-color: rgba(126, 165, 197, 0.2);}
+  border-color: rgba(126, 165, 197, 0.1);}
 
 #Wiki:hover{
-  background-color: rgba(255, 51, 0, 0.2);
+  background-color: rgba(255, 51, 0, 0.1);
   border-radius: 5px;
-  border-color: rgba(255, 51, 0, 0.2);}
+  border-color: rgba(255, 51, 0, 0.1);}
 
 #Launcher:hover{
-  background-color: rgba(0, 161, 13, 0.2);
+  background-color: rgba(0, 161, 13, 0.1);
   border-radius: 5px;
-  border-color: rgba(0, 161, 13, 0.2);}
+  border-color: rgba(0, 161, 13, 0.1);}
 
 #Java-Download:hover{
-  background-color: rgba(255, 166, 0, 0.2);
+  background-color: rgba(255, 166, 0, 0.1);
   border-radius: 5px;
-  border-color: rgba(255, 166, 0, 0.2);}
+  border-color: rgba(255, 166, 0, 0.1);}
 
 #lower-button-img:hover{
   transform: scale(1.1);
@@ -190,8 +190,8 @@ button{
   border-color: rgba(0, 0, 0, 0);}
 
 .Details:hover, .Changelog:hover{
-  background-color: rgba(255, 255, 255, 0.125);
-  border-color: rgba(255, 255, 255, 0.125);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.05);
   color: rgb(255, 255, 255);
   font-size: 1.65vw;}
 
