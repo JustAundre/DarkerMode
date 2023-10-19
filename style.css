@@ -201,6 +201,41 @@ button{
   width: 50%;
   height: 100%;}
 
+.Fourms-Colored{
+  color: rgb(228, 216, 255);}
+
+.changelogdiv{
+  width: 100%;
+  top: 25%; background-color: rgba(24, 24, 24, 0.5);
+  text-align: center;
+  display: inline-block;
+  flex-wrap: wrap;
+  align-items: center;
+  position: fixed;}
+
+.Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
+  top: 70%;
+  height: auto;
+  width: 100%;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+  color: white;}
+
+.Title{
+  top: 75%;
+  height: 5vh;
+  width: 100%;
+  font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+  font-size: 2.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;}
+
 @media (orientation: portrait){
   .MinecraftLogo{
     width: 90vw;}
@@ -221,4 +256,13 @@ button{
   .lower-button-img .lower-button-img2{
     height: 4.6vh;
     transition: 250ms ease-in-out;}
+
+  .changelogdiv{
+    border-radius: 2vh;}
+
+  .Title{
+    font-size: 3.3vh;}
+
+  .Line-a1, .Line-a2, .Line-a3, .Line-a4, .Line-a5{
+    font-size: 2.3vh;}
 }
