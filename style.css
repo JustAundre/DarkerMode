@@ -3,13 +3,18 @@ body{
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150%;
-    background-color: #1a1a1a;}
+    height: 100vh;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;}
 
 .Card-1{
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     border-radius: 2vw;
     background-color: rgba(32, 32, 32, 0.75);
-    height: 85vh;
+    height: 80vh;
     width: 33vw;}
