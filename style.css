@@ -1,7 +1,12 @@
-.body {
+body{
     background-image: url("images/mc1.jpg");
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     height: 150%;
     background-color: #1a1a1a;}
+
+.Card-1{
+    background-color: rgba(32, 32, 32, 0.75);
+    height: 90vh;
+    width: 40vw;}
