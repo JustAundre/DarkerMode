@@ -7,6 +7,8 @@ body{
     background-color: #1a1a1a;}
 
 .Card-1{
+    align-content: center;
+    border: 2vw;
     background-color: rgba(32, 32, 32, 0.75);
     height: 90vh;
-    width: 40vw;}
+    width: 33vw;}
