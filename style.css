@@ -21,6 +21,11 @@ body{
     width: 33vw;
 }
 
+html{
+    height: 150%;
+    width: 100%;
+}
+
 @media (orientation: portrait){
     .Card-1{
         width: 80vw;
