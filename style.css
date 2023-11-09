@@ -246,13 +246,14 @@ body{
     }
 
     .DownloadDM {
-        font-size: 2.1vw;
+        font-size: 1.7vh;
     }
 
     .text-1, .text-2 {
-        font-size: 2.7vh;
+        font-size: 2.3vh;
         position: relative;
         top: unset;
+        margin-top: 3vh;
     }
 
     .pfpimg {
