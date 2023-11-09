@@ -1,3 +1,8 @@
+a {
+    color: initial;
+    text-decoration: none;
+}
+
 body{
     background-image: url("images/mc1.jpg");
     overflow: hidden;
@@ -30,7 +35,7 @@ body{
 .text-1, .text-2 {
     text-wrap: wrap;
     font-size: 1.8vw;
-    font-family: Sans-Serif, Arial;
+    font-family: Poppins;
     top: 15%;
     position: relative;
     
@@ -63,7 +68,7 @@ body{
 
 /* vv Lower buttons vv */
 
-.buttondiv{
+.buttondiv {
     position: fixed;
     left: 0px;
     bottom: 0px;
@@ -76,43 +81,44 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;}  
+    font-size: 20px;
+}  
 
-.VTScan{
+.VTScan {
     border-color: rgba(0, 0, 0, 0);
     background-color: rgba(0, 0, 0, 0);
     transition: 500ms all ease-in-out;
     height: 100%;
     width: 100%;
     border-radius: 5px;
-    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;}
+}
   
-.Wiki{
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+.Wiki {
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
     transition: 500ms all ease-in-out;
     height: 100%;
     width: 100%;
-    border-radius: 5px;}
+    border-radius: 5px;
+}
   
-.Launcher{
+.Launcher {
     transition: 500ms all ease-in-out;
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0);
     height: 100%;
     width: 100%;
     border-radius: 5px;
-    border-color: rgba(0, 0, 0, 0);}
+    border-color: rgba(0, 0, 0, 0);
+}
   
-.Java-Download{
+.Java-Download {
     transition: 500ms all ease-in-out;
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     background-color: rgba(0, 0, 0, 0);
     height: 100%;
     width: 100%;
     border-radius: 5px;
-    border-color: rgba(0, 0, 0, 0);}
+    border-color: rgba(0, 0, 0, 0);
+}
   
 #VTScan:hover {
     background-color: rgba(126, 165, 197, 0.1);
