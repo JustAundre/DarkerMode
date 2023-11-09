@@ -26,6 +26,8 @@ body{
 
 .DownloadDM {
     font-size: 1.2vw;
+    font-family: Poppins;
+    color: rgb(55, 55, 55);
 }
 
 .Card-1{
@@ -40,7 +42,6 @@ body{
     background-color: rgba(32, 32, 32, 0.75);
     height: 80vh;
     width: 33vw;
-
 }
 
 .text-1, .text-2 {
