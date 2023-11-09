@@ -59,7 +59,6 @@ body{
 
 .pfpimg {
     width: 15vw;
-    transition: 1s;
     top: 12%;
     position: relative;
     margin-bottom: 3vh;
@@ -67,6 +66,7 @@ body{
 
 #pfpimg:hover {
     transform: scale(1.05) rotate(360deg);
+    transition: all 1s ease-in-out;
 }
 
 #pfpimg:active {
