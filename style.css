@@ -28,8 +28,8 @@ body{
     width: 15vw;
 }
 
-#pfpimg {
-    transform: 1.1;
+#pfpimg:hover {
+    transform: scale(1.1);
 }
 
 html{
