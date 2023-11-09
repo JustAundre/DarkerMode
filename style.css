@@ -19,7 +19,7 @@ body{
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    transition: 1.5s;
+    transition: 1s;
     border-radius: 2vw;
     background-color: rgba(32, 32, 32, 0.75);
     height: 80vh;
@@ -29,8 +29,10 @@ body{
 
 .text-1, .text-2 {
     text-wrap: wrap;
-    font-size: 1.25vw;
+    font-size: 1.8vw;
     font-family: Sans-Serif, Arial;
+    top: 15%;
+    position: relative;
     
 }
 
@@ -45,11 +47,18 @@ body{
 
 #pfpimg {
     width: 15vw;
-    transition: 1.5s;
+    transition: 1s;
+    top: 12%;
+    position: relative;
 }
 
 #pfpimg:hover {
     transform: scale(1.05) rotate(360deg);
+}
+
+#pfpimg:active {
+    opacity: 50%;
+    scale: (0.8);
 }
 
 /* vv Lower buttons vv */
@@ -166,7 +175,7 @@ body{
 /* vv Upper Buttons vv */
 .Details, .Changelog{
     transition: 250ms all ease-in-out;
-    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-family: Poppins;
     background-color: rgba(0, 0, 0, 0);
     height: 100%;
     width: 100%;
@@ -215,10 +224,13 @@ html{
     }
 
     .text-1, .text-2 {
-        font-size: 1.25vh;
+        font-size: 3.1vh;
+        position: relative;
+        top: 15%;
     }
 
     .pfpimg {
         width: 15vh;
+        top: 15%;
     }
 }
