@@ -90,6 +90,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    transition: 500ms all ease-in-out;
 }
 
 .buttondiv:hover {
