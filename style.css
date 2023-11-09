@@ -19,10 +19,12 @@ body{
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    transition: 750ms;
     border-radius: 2vw;
     background-color: rgba(32, 32, 32, 0.75);
     height: 80vh;
     width: 33vw;
+
 }
 
 .text-1, .text-2 {
@@ -36,15 +38,17 @@ body{
 }
 
 .text-2 {
-    color: rgb(214, 186, 255)255, 255);
+    color: rgb(214, 186, 255);
 }
 
 #pfpimg {
     width: 15vw;
+    transition: 750ms;
 }
 
 #pfpimg:hover {
     transform: scale(1.1);
+    transform: rotate(360);
 }
 
 html{
