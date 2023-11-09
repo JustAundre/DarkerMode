@@ -12,6 +12,7 @@ body{
 }
 
 .Card-1{
+    user-select: none;
     display: flex;
     justify-content: center;
     align-items: center;
