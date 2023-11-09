@@ -62,6 +62,7 @@ body{
     top: 12%;
     position: relative;
     margin-bottom: 3vh;
+    transition: all 1s ease-in-out;
 }
 
 #pfpimg:hover {
@@ -71,7 +72,8 @@ body{
 
 #pfpimg:active {
     transform: scale(0.8);
-    opacity: 50%; 
+    opacity: 50%;
+    transition: all 1s ease-in-out;
 }
 
 /* vv Lower buttons vv */
