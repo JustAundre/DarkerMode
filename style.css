@@ -54,6 +54,7 @@ body{
     transition: 1s;
     top: 12%;
     position: relative;
+    margin-bottom: 3vh;
 }
 
 #pfpimg:hover {
@@ -237,6 +238,7 @@ html{
     .pfpimg {
         width: 23.5vh;
         top: -10%;
+        margin-bottom: unset;
     }
 
     .Changelog, .Details {
