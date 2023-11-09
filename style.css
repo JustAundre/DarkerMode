@@ -247,6 +247,9 @@ body{
 
     .Links {
         font-size: 1.7vh;
+    }
+
+    .links-div {
         margin-bottom: 6vh;
     }
 
