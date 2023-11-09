@@ -94,6 +94,7 @@ body{
 
 .buttondiv:hover {
     bottom: 0%;
+    transition: 500ms all ease-in-out;
 } 
 
 .VTScan {
