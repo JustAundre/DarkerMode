@@ -257,4 +257,8 @@ body{
         font-size: 1.9vh;
         color: rgb(255, 255, 255);
     }
+
+    .buttondiv {
+        bottom: 0%;
+    }
 }
