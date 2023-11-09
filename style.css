@@ -3,6 +3,17 @@ a {
     text-decoration: unset;
 }
 
+html{
+    height: 100%;
+    width: 100%;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 body{
     background-image: url("images/mc1.jpg");
     overflow: hidden;
@@ -17,7 +28,6 @@ body{
 }
 
 .Card-1{
-    user-select: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,11 +226,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-html{
-    height: 100%;
-    width: 100%;
 }
 
 @media (orientation: portrait) {
