@@ -14,14 +14,29 @@ body{
 .Card-1{
     user-select: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-wrap: wrap;
-    align-content: center;
     border-radius: 2vw;
     background-color: rgba(32, 32, 32, 0.75);
     height: 80vh;
     width: 33vw;
+}
+
+.text-1, .text-2 {
+    text-wrap: wrap;
+    font-size: 0.5vw;
+    font-family: Sans-Serif, Arial;
+}
+
+.text-1 {
+    color: antiquewhite;
+}
+
+.text-2 {
+    color: rgb(214, 186, 255)255, 255);
 }
 
 #pfpimg {
