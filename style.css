@@ -190,7 +190,7 @@ body{
 /* ^^ Lower buttons ^^ */
 /* vv Upper Buttons vv */
 
-.Back, .Details{
+.Changelog, .Details{
     justify-content: center;
     display: flex;
     transition: 250ms all ease-in-out;

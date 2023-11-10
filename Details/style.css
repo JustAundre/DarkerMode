@@ -175,7 +175,7 @@ body {
 
 /* vv Upper Buttons vv */
 
-.Back, .Details {
+.Back, .Changelog {
     justify-content: center;
     display: flex;
     transition: 250ms all ease-in-out;
