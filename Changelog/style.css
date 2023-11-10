@@ -191,12 +191,12 @@ body {
     width: 100%;
 }
   
-.Back:hover, .Details:hover {
+#Back:hover, #Details:hover {
     transition: 250ms all ease-in-out;
     background-color: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.05);
     color: rgb(255, 255, 255);
-    font-size: 1.4vw;
+    transform: scale(1.12);
 }
   
 .topbdiv1, .topbdiv2 {
