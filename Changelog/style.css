@@ -129,7 +129,7 @@ body {
     height: 100%;
 }
 
-.detailsdiv {
+.changelogdiv {
     width: 100vw;
     height: 50vh;
     display: flex;
@@ -145,7 +145,7 @@ body {
     border-width: 0.5vh;
 }
 
-.Details {
+.Changelog {
     font-size: 1.8vw;
     font-family: Poppins;
     position: relative;
@@ -169,13 +169,12 @@ body {
 }
 
 @media (orientation: portrait) {
-    .details
-    div {
+    .changelogdiv {
         width: 90vw;
         height: 75vh;
     }
 
-    .Details {
+    .Changelog {
         font-size: 2.5vh;
         margin-top: 8vh;
     }
