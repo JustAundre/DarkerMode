@@ -175,7 +175,7 @@ body {
 
 /* vv Upper Buttons vv */
 
-.Back, .Changelog{
+.Back, .Details{
     justify-content: center;
     display: flex;
     transition: 250ms all ease-in-out;
@@ -184,18 +184,23 @@ body {
     border-radius: 5px;
     color: rgb(200, 200, 200);
     font-size: 1.25vw;
-    border-color: rgba(0, 0, 0, 0);}
+    border-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
   
-  .Back:hover, .Changelog:hover{
+.Back:hover, .Details:hover{
     transition: 250ms all ease-in-out;
     background-color: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.05);
     color: rgb(255, 255, 255);
-    font-size: 1.4vw;}
+    font-size: 1.4vw;
+}
   
-  .topbdiv1, .topbdiv2{
+.topbdiv1, .topbdiv2{
     width: 50%;
-    height: 100%;}
+    height: 100%;
+}
 
 .top-div {
     position: fixed;
