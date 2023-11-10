@@ -189,6 +189,7 @@ body{
 
 /* ^^ Lower buttons ^^ */
 /* vv Upper Buttons vv */
+
 .Details, .Changelog{
     transition: 250ms all ease-in-out;
     font-family: Poppins;
@@ -212,8 +213,6 @@ body{
     width: 50%;
     height: 100%;}
 
-/* ^^ Upper Buttons ^^ */
-
 .top-div {
     position: fixed;
     top: 0%;
@@ -226,6 +225,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+/* ^^ Upper Buttons ^^ */
 
 @media (orientation: portrait) {
     .Card-1 {
