@@ -134,7 +134,7 @@ body {
 /* ^^ Lower Buttons ^^ */
 
 .detailsdiv {
-    width: 100vw;
+    width: 95vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -214,10 +214,10 @@ body {
 /* ^^ Upper Buttons ^^ */
 
 @media (orientation: portrait) {
-    .details
-    div {
-        width: 90vw;
+    .detailsdiv {
+        width: 95vw;
         height: 75vh;
+        border-style: dashed;
     }
 
     .Details {

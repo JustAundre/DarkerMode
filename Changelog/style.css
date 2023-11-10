@@ -134,7 +134,7 @@ body {
 /* ^^ Lower buttons ^^ */
 
 .changelogdiv {
-    width: 100vw;
+    width: 95vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -215,8 +215,9 @@ body {
 
 @media (orientation: portrait) {
     .changelogdiv {
-        width: 90vw;
+        width: 95vw;
         height: 75vh;
+        border-style: dashed;
     }
 
     .Changelog {
