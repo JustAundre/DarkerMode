@@ -167,3 +167,18 @@ body {
     font-family: Poppins;
     margin-top: 3vh;
 }
+
+@media (orientation: portrait) {
+    .changelogdiv {
+        width: 90vw;
+        height: 75vh;
+    }
+
+    .Changelog {
+        font-size: 2.5vh;
+    }
+
+    .title, .DownloadDMC {
+        font-size: 3vh;
+    }
+}
