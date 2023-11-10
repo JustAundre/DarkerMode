@@ -204,7 +204,7 @@ body{
     width: 100%;
 }
   
-.Back:hover, .Details:hover{
+.Changelog:hover, .Details:hover{
     transition: 250ms all ease-in-out;
     background-color: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.05);
