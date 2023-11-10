@@ -194,8 +194,6 @@ body{
     transition: 250ms all ease-in-out;
     font-family: Poppins;
     background-color: rgba(0, 0, 0, 0);
-    height: 100%;
-    width: 100%;
     border-radius: 5px;
     color: rgb(200, 200, 200);
     font-size: 1.25vw;
