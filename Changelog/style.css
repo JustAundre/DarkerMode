@@ -149,7 +149,11 @@ body {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    background-color: rgb(24, 24, 24, 0.75);
+    background-color: rgba(24, 24, 24, 0.75);
+    border-radius: 3vh;
+    border-style: dashed;
+    border-color: rgb(24, 24, 24);
+    border-width: 0.5vh;
 }
 
 .Changelog {
