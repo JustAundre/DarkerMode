@@ -156,7 +156,7 @@ body {
     font-size: 1.8vw;
     font-family: Poppins;
     position: relative;
-    line-height: 1.2;
+    line-height: 1.35;
     color: rgb(255, 255, 255);
     margin-top: 3vh;
 }
@@ -170,5 +170,7 @@ body {
 
 .DownloadDMC {
     color: rgb(214, 186, 255);
+    font-size: 1.8vw;
+    font-family: Poppins;
     margin-top: 3vh;
 }
