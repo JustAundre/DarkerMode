@@ -215,6 +215,10 @@ body {
     height: auto;
 }
 
+.back-text {
+    translate: 0%, 3%;
+}
+
 /* ^^ Upper Buttons ^^ */
 
 @media (orientation: portrait) {
