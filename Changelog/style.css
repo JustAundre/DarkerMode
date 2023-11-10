@@ -134,7 +134,7 @@ body {
 /* ^^ Lower buttons ^^ */
 
 .changelogdiv {
-    width: 95vw;
+    width: 100vw;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -194,7 +194,6 @@ body {
     font-size: 1.4vw;}
   
 .topbdiv1, .topbdiv2{
-    translate: -1%;
     width: 50%;
     height: 100%;}
 
