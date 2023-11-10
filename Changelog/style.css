@@ -176,14 +176,13 @@ body {
 
     .Changelog {
         font-size: 2.5vh;
-        margin-top: 8vh;
     }
 
     .title, .DownloadDMC {
         font-size: 3vh;
     }
 
-    .DownloadDMC {
-        margin-top: 8vh;
+    .buttondiv {
+        bottom: 0%;
     }
 }
