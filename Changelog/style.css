@@ -169,6 +169,10 @@ body {
     margin-top: 3vh;
 }
 
+.top-div {
+    top: 0%;
+}
+
 .Back, .Changelog {
     font-size: 1.4vw;
     transition: 250ms all ease-in-out;
