@@ -169,6 +169,14 @@ body {
     margin-top: 3vh;
 }
 
+.Back, .Changelog {
+    font-size: 1.4vw;
+    transition: 250ms all ease-in-out;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.05);
+    color: rgb(255, 255, 255);
+}
+
 @media (orientation: portrait) {
     .details
     div {
@@ -195,5 +203,9 @@ body {
 
     .detailsdiv {
         border-radius: 3vh;
+    }
+
+    .Back, .Changelog {
+        font-size: 2.25vh;
     }
 }
