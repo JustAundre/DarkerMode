@@ -143,6 +143,13 @@ body {
 .changelogdiv {
     width: 50vw;
     height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(24, 24, 24, 0.75);
 }
 
 .changelog {
@@ -150,10 +157,12 @@ body {
     font-family: Poppins;
     position: relative;
     line-height: 1.2;
+    color: rgb(255, 255, 255);
 }
 
 .title {
     font-size: 2.5vw;
     font-family: Poppins;
     position: relative;
+    color: rgb(255, 255, 255);
 }
