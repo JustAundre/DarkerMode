@@ -235,9 +235,8 @@ body {
 
 @media (orientation: portrait) {
     .detailsdiv {
-        width: 95vw;
+        width: 100vw;
         height: 75vh;
-        border-style: dashed;
     }
 
     .Details {
