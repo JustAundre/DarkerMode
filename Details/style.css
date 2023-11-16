@@ -250,8 +250,9 @@ body {
     height: auto;
 }
 
-.back-text {
-    translate: 0%, 3%;
+.back-text, .changelog-text {
+    top: 10%;
+    position: relative;
 }
 
 /* ^^ Upper Buttons ^^ */

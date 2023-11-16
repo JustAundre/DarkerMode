@@ -250,6 +250,11 @@ body {
     height: auto;
 }
 
+.back-text, .details-text {
+    top: 10%;
+    position: relative;
+}
+
 /* ^^ Upper Buttons ^^ */
 
 @media (orientation: portrait) {

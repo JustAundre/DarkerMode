@@ -258,6 +258,11 @@ body{
     align-items: center;
 }
 
+.changelog-text, .details-text {
+    top: 10%;
+    position: relative;
+}
+
 /* ^^ Upper Buttons ^^ */
 
 @media (orientation: portrait) {
