@@ -182,7 +182,7 @@ body {
 
 .Details {
     font-size: 1.8vw;
-    font-family: Poppins;
+    font-family: Comfortaa;
     position: relative;
     line-height: 1.35;
     color: rgb(255, 255, 255);
@@ -191,7 +191,7 @@ body {
 
 .title {
     font-size: 2.5vw;
-    font-family: Poppins;
+    font-family: Comfortaa;
     position: relative;
     color: rgb(255, 255, 255);
 }
@@ -199,7 +199,7 @@ body {
 .DownloadDMC {
     color: rgb(214, 186, 255);
     font-size: 1.8vw;
-    font-family: Poppins;
+    font-family: Comfortaa;
     margin-top: 3vh;
 }
 
@@ -209,7 +209,7 @@ body {
     justify-content: center;
     display: flex;
     transition: 250ms all ease-in-out;
-    font-family: Poppins;
+    font-family: Comfortaa;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
     color: rgb(200, 200, 200);

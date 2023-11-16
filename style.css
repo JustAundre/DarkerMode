@@ -31,7 +31,7 @@ body{
 
 .Links {
     font-size: 1.2vw;
-    font-family: Poppins;
+    font-family: Comfortaa;
     color: rgb(55, 55, 55);
 }
 
@@ -52,7 +52,7 @@ body{
 .text-1, .text-2 {
     text-wrap: wrap;
     font-size: 1.8vw;
-    font-family: Poppins;
+    font-family: Comfortaa;
     position: relative;
     width: 95%;
     line-height: 1.2;
@@ -222,7 +222,7 @@ body{
     justify-content: center;
     display: flex;
     transition: 250ms all ease-in-out;
-    font-family: Poppins;
+    font-family: Comfortaa;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
     color: rgb(200, 200, 200);
