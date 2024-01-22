@@ -4,7 +4,7 @@ html, body {
 }
 
 .centerContent {
-  height: 100%;
+  height: 95%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@ html, body {
 }
 
 .downloadPack {
-  height: 100%;
+  height: 90vh;
   width: 30vw;
   margin: 20px;
   background: rgba(26, 26, 26, .8);
@@ -23,7 +23,7 @@ html, body {
 }
 
 .packDetails {
-  height: 100%;
+  height: 90vh;
   width: 70vw;
   margin: 20px;
   background: rgba(26, 26, 26, .8);
