@@ -10,40 +10,18 @@ body {
 }
 
 .appContainer {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  width: 100vw;
-  bottom: -5%;
-}
-
-.downloadPack {
-  height: 65vh;
-  width: 30vw;
-  margin: 2.5%;
-  background: rgb(10, 10, 10);
-  border-width: .5px;
-  border-radius: 1px;
-  border-style: dashed;
-  border-color: rgb(100, 36, 255);
-}
-
-.packDetails {
-  height: 65vh;
-  width: 70vw;
-  margin: 2.5%;
-  background: rgb(10, 10, 10);
-  border-width: .5px;
-  border-radius: 1px;
-  border-style: dashed;
-  border-color: rgb(100, 36, 255);
+  height: 60vh;
+  width: 80vw;
 }
 
 .topFooter {
+  display: flex;
   position: absolute;
-  height: 10vh;
+  height: 5vh;
   width: 100vw;
   top: 0%;
   background: rgb(15, 15, 15);
@@ -64,6 +42,6 @@ body {
   width: fit-content;
   height: 50%;
   color: white;
-  font-size: .3rem;
+  font-size: 4px;
   background: linear-gradient(to top, rgb(17.5, 17.5, 17.5), rgb(100, 36, 255));
 }
