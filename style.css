@@ -23,7 +23,7 @@ body {
   height: 65vh;
   width: 30vw;
   margin: 2.5%;
-  background: linear-gradient(to top, rgb(10, 10, 10), rgb(17.5, 17.5, 17.5));
+  background: rgb(10, 10, 10);
   border-width: .5px;
   border-radius: 1px;
   border-style: dashed;
@@ -34,7 +34,7 @@ body {
   height: 65vh;
   width: 70vw;
   margin: 2.5%;
-  background: linear-gradient(to top, rgb(10, 10, 10), rgb(17.5, 17.5, 17.5));
+  background: rgb(10, 10, 10);
   border-width: .5px;
   border-radius: 1px;
   border-style: dashed;
