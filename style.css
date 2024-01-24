@@ -7,10 +7,17 @@ body {
   background: rgb(10, 10, 10)
 }
 
+.appContainer {
+  position: relative;
+  display: flex;
+  height: 85%;
+  width: 100%;
+}
+
 .downloadPack {
-  height: 65vh;
-  width: 30vw;
-  margin: 2.5vw;
+  height: 65%;
+  width: 30%;
+  margin: 2.5%;
   background: linear-gradient(to top, rgb(10, 10, 10), rgb(15, 15, 15));
   border-width: .5px;
   border-radius: 4px;
@@ -19,9 +26,9 @@ body {
 }
 
 .packDetails {
-  height: 65vh;
-  width: 70vw;
-  margin: 2.5vw;
+  height: 65%;
+  width: 70%;
+  margin: 2.5%;
   background: linear-gradient(to top, rgb(10, 10, 10), rgb(15, 15, 15));
   border-width: .5px;
   border-radius: 4px;
@@ -30,7 +37,7 @@ body {
 }
 
 .topFooter {
-  height: 15vh;
+  height: 15%;
   width: 100%;
   margin: 0;
   top: 0%;
