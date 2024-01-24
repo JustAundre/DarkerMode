@@ -10,18 +10,21 @@ body {
 }
 
 .appContainer {
+  margin-top: 10vh;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 30vw;
+  max-height: 75vh;
   width: 80vw;
+  background: url('https://raw.githubusercontent.com/ItsAundre/DarkerMode/main/images/Border.png');
 }
 
 .topFooter {
   display: flex;
-  position: absolute;
-  height: 5vh;
+  position: fixed;
+  height: 10vh;
   width: 100vw;
   top: 0%;
   background: rgb(15, 15, 15);
@@ -40,7 +43,6 @@ body {
   display: inherit;
   border-radius: 1px;
   width: fit-content;
-  height: 50%;
   color: white;
   font-size: 4px;
   background: linear-gradient(to top, rgb(17.5, 17.5, 17.5), rgb(100, 36, 255));
