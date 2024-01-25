@@ -1,7 +1,14 @@
 body * {
   display: flex;
   position: relative;
+  user-select: none;
 }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -37,6 +44,7 @@ body {
 }
 
 .homeButton {
+  transition: .1s ease-in-out;
   margin: 2px;
   padding: 1.25px 2.5px;
   position: relative;
@@ -45,17 +53,24 @@ body {
   width: fit-content;
   color: white;
   font-size: 4px;
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(100, 36, 255, 0.1));
+  background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.1));
 }
 
-.homeButton:hover {
+#homeButton:hover {
   transition: .1s ease-in-out;
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(100, 36, 255, 0.2));
+  background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.2));
   cursor: pointer;
   scale: 1.05;
+}
+
+#homeButton:active {
+  transition: .1s ease-in-out;
+  background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
+  scale: 0.95;
 }
 
 .termsOfUse {
+  transition: .1s ease-in-out;
   margin: 2px;
   padding: 1.25px 2.5px;
   position: relative;
@@ -64,12 +79,18 @@ body {
   width: fit-content;
   color: white;
   font-size: 4px;
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(70, 50, 255, 0.1));
+  background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.1));
 }
 
-.termsOfUse:hover {
-  transition: .1 ease-in-out;
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(70, 50, 255, 0.2));
+#termsOfUse:hover {
+  transition: .1s ease-in-out;
+  background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.2));
   cursor: pointer;
   scale: 1.05;
+}
+
+#termsOfUse:active {
+  transition: .1s ease-in-out;
+  background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
+  scale: 0.95;
 }
