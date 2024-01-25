@@ -16,7 +16,7 @@ body {
   height: 100vh;
   margin: 0px;
   background: rgb(10, 10, 10);
-  font-family: Comfortaa;
+  font-family: "Comfortaa";
   font-size: 16px;
 }
 
@@ -44,53 +44,68 @@ body {
 }
 
 .homeButton {
-  transition: .1s ease-in-out;
-  margin: 2px;
-  padding: 1.25px 2.5px;
-  position: relative;
-  display: block;
-  border-radius: 1px;
-  width: fit-content;
-  color: white;
-  font-size: 4px;
+  color: lightgray;
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.1));
+  font-size: var(--topButtonClickSize);
 }
 
 .homeButton:hover {
-  transition: .1s ease-in-out;
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.2));
   cursor: pointer;
-  scale: 1.05;
+  font-size: var(--topButtonHoverSize);
 }
 
 .homeButton:active {
-  transition: .1s ease-in-out;
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
-  scale: 0.95;
+  font-size: var(--topButtonClickSize);
 }
 
 .termsOfUse {
-  transition: .1s ease-in-out;
-  margin: 2px;
-  padding: 1.25px 2.5px;
-  position: relative;
-  display: block;
-  border-radius: 1px;
-  width: fit-content;
-  color: white;
-  font-size: 4px;
+  color: lightgray;
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.1));
+  font-size: var(--topButtonNormalSize);
 }
 
 .termsOfUse:hover {
-  transition: .1s ease-in-out;
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.2));
   cursor: pointer;
-  scale: 1.05;
+  font-size: var(--topButtonHoverSize);
 }
 
 .termsOfUse:active {
-  transition: .1s ease-in-out;
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
-  scale: 0.95;
+  font-size: var(--topButtonClickSize);
+}
+
+.packDetailsButton {
+  color: lightgray;
+  background: linear-gradient(to top, rgb(10, 10, 10), rgba(255, 255, 0, 0.1));
+  font-size: var(--topButtonNormalSize);
+}
+
+.packDetailsButton:hover {
+  background: linear-gradient(to top, rgb(10, 10, 10), rgba(255, 255, 0, 0.2));
+  cursor: pointer;
+  font-size: var(--topButtonHoverSize);
+}
+
+.packDetailsButton:active {
+  background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
+  font-size: var(--topButtonClickSize);
+}
+
+.homeButton, .packDetailsButton, .termsOfUse {
+  height: 100%;
+  width: calc(100% / 3);
+  text-align: center;
+  display: block;
+  position: relative;
+  transition: .1s ease-in-out;
+  line-height: 10vh;
+}
+
+:root {
+  --topButtonClickSize: calc(1rem / 3.2);
+  --topButtonHoverSize: calc(1rem / 2.8);
+  --topButtonNormalSize: calc(1rem / 3);
 }
