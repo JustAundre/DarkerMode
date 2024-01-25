@@ -56,14 +56,14 @@ body {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.1));
 }
 
-#homeButton:hover {
+.homeButton:hover {
   transition: .1s ease-in-out;
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.2));
   cursor: pointer;
   scale: 1.05;
 }
 
-#homeButton:active {
+.homeButton:active {
   transition: .1s ease-in-out;
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
   scale: 0.95;
@@ -82,14 +82,14 @@ body {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.1));
 }
 
-#termsOfUse:hover {
+.termsOfUse:hover {
   transition: .1s ease-in-out;
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.2));
   cursor: pointer;
   scale: 1.05;
 }
 
-#termsOfUse:active {
+.termsOfUse:active {
   transition: .1s ease-in-out;
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
   scale: 0.95;
