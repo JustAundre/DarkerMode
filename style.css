@@ -59,6 +59,8 @@ body {
 
 /* Unique properties of the home button. */
 .homeIcon {
+  transition: .2s ease-in-out;
+  width: 12.5%;
   color: rgb(70, 70, 210);
   line-height: 3vh;
   padding-top: .5vh;
@@ -68,15 +70,22 @@ body {
   border-width: 0.1vh;
   border-radius: .5vw;
   border-style: dashed;
-  font-size: 1.75vw;
+  font-size: 1.5vw;
   margin-left: 2.5%;
+  place-content: center;
+  cursor: pointer;
+}
+.homeIcon:hover {
+  font-size: 1.55vw;
+}
+.homeIcon:active {
+  font-size: 1.45vw;
 }
 
 /* Properties all buttons share. */
-.packDetailsButton, .termsOfUse {
+.packDetailsButton, .termsOfUse, .changelogButton {
   color: white;
-  height: 100%;
-  width: fit-content;
+  width: 12.5%;
   text-align: center;
   display: block;
   position: relative;
@@ -92,12 +101,12 @@ body {
   margin-left: 1%;
   margin-right: 1%;
 }
-.packDetailsButton:hover, .termsOfUse:hover {
+.packDetailsButton:hover, .termsOfUse:hover, .changelogButton:hover {
   color: rgb(97, 97, 210);
   cursor: pointer;
   border-bottom-style: solid;
 }
-.packDetailsButton:active, .termsOfUse:active {
+.packDetailsButton:active, .termsOfUse:active, .changelogButton:active {
   color: rgb(70, 70, 210);
   border-bottom-style: solid;
 }
