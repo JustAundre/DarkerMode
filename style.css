@@ -32,7 +32,7 @@ body {
 
 .topFooter {
   position: fixed;
-  height: 10vh;
+  height: 5vh;
   width: 100vw;
   top: 0%;
   background: rgb(10, 10, 10);
@@ -40,58 +40,43 @@ body {
   display: flex;
   place-content: center;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .homeButton {
-  color: lightgray;
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.1));
-  font-size: var(--topButtonClickSize);
 }
 
 .homeButton:hover {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.2));
-  cursor: pointer;
-  font-size: var(--topButtonHoverSize);
 }
 
 .homeButton:active {
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
-  font-size: var(--topButtonClickSize);
 }
 
 .termsOfUse {
-  color: lightgray;
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.1));
-  font-size: var(--topButtonNormalSize);
 }
 
 .termsOfUse:hover {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.2));
-  cursor: pointer;
-  font-size: var(--topButtonHoverSize);
 }
 
 .termsOfUse:active {
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
-  font-size: var(--topButtonClickSize);
 }
 
 .packDetailsButton {
-  color: lightgray;
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(255, 255, 0, 0.1));
-  font-size: var(--topButtonNormalSize);
 }
 
 .packDetailsButton:hover {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(255, 255, 0, 0.2));
-  cursor: pointer;
-  font-size: var(--topButtonHoverSize);
 }
 
 .packDetailsButton:active {
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
-  font-size: var(--topButtonClickSize);
 }
 
 .homeButton, .packDetailsButton, .termsOfUse {
@@ -101,11 +86,22 @@ body {
   display: block;
   position: relative;
   transition: .1s ease-in-out;
-  line-height: 10vh;
+  line-height: 5vh;
+}
+
+.packDetailsButton:hover, .homeButton:hover, .termsOfUse:hover {
+  color: rgb(150, 150, 150);
+  cursor: pointer;
+  font-size: var(--topButtonHoverSize);
+}
+
+.packDetailsButton:active, .homeButton:active, .termsOfUse:active {
+  color: rgb(255, 255, 255);
+  font-size: var(--topButtonClickSize);
 }
 
 :root {
-  --topButtonClickSize: calc(1rem / 3.2);
-  --topButtonHoverSize: calc(1rem / 2.8);
-  --topButtonNormalSize: calc(1rem / 3);
+  --topButtonClickSize: 1.4vw;
+  --topButtonHoverSize: 1.6vw;
+  --topButtonNormalSize: 1.5vw;
 }
