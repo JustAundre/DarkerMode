@@ -1,25 +1,29 @@
+/* Changes 2 default properties, and removes user-select */
 body * {
   display: flex;
   position: relative;
   user-select: none;
 }
 
+/* Makes all links use a pointer mouse and have no text decoration */
 a {
   text-decoration: none;
   cursor: pointer;
 }
 
+/* Makes the body element center all things, etc. */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0px;
-  background: rgb(10, 10, 10);
+  background: rgb(10, 5, 0);
   font-family: "Comfortaa";
   font-size: 16px;
 }
 
+/* I'm not explaining this. */
 .appContainer {
   margin-top: 10vh;
   width: 100%;
@@ -30,93 +34,57 @@ body {
   align-items: center;
 }
 
+/* I'm not explaining this. */
 .topFooter {
   position: fixed;
   height: 5vh;
   width: 100vw;
   top: 0%;
-  background: rgb(10, 10, 10);
-  border-bottom: 0.5px solid rgb(15, 15, 15);
+  background: rgb(10, 5, 0);
+  border-bottom: 0.5px solid rgb(15, 10, 5);
   display: flex;
   place-content: center;
   align-items: center;
   justify-content: flex-start;
 }
 
-/* Properties unique to the "Home" button */
-.homeButton {
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.1));
-  height: 80%;
-  width: 30%;
-  text-align: center;
-  display: block;
-  position: relative;
-  transition: .1s ease-in-out;
+/* Unique properties of the home button. */
+.homeIcon {
+  color: rgb(70, 70, 210);
   line-height: 5vh;
-  font-size: 2.5vw;
-  color: var(--topButtonNormalColor);
-}
-.homeButton:hover {
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.2));
-  color: var(--topButtonHoverColor);
-  font-size: var(--topButtonHoverSize);
-}
-.homeButton:active {
-  background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
-  color: var(--topButtonClickColor);
-  font-size: var(--topButtonNormalSize);
-}
-
-/* Properties unique to the "TOS" button */
-.termsOfUse {
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.1));
-}
-.termsOfUse:hover {
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.2));
-}
-.termsOfUse:active {
-  background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
-}
-
-/* Properties unique to the "Details" button */
-.packDetailsButton {
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(255, 255, 0, 0.1));
-}
-.packDetailsButton:hover {
-  background: linear-gradient(to top, rgb(10, 10, 10), rgba(255, 255, 0, 0.2));
-}
-.packDetailsButton:active {
-  background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-width: 0.1vh;
+  border-radius: 5%;
+  font-size: 1.75vw;
 }
 
 /* Properties all buttons share. */
 .packDetailsButton, .termsOfUse {
-  color: var(--topButtonNormalColor);
+  color: white;
   height: 100%;
-  width: 7.5%;
+  width: fit-content;
   text-align: center;
   display: block;
   position: relative;
-  transition: .1s ease-in-out;
+  transition: calc(1s / 3) ease-in-out;
   line-height: 5vh;
+  padding-top: .5vh;
+  padding-bottom: .5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-bottom-width: 0.1vh;
+  border-bottom-style: none;
+  font-size: 1.5vw;
 }
 .packDetailsButton:hover, .termsOfUse:hover {
-  color: var(--topButtonHoverColor);
+  color: rgb(97, 97, 210);
   cursor: pointer;
-  font-size: var(--topButtonHoverSize);
+  border-bottom-style: solid;
 }
 .packDetailsButton:active, .termsOfUse:active {
-  color: var(--topButtonNormalColor);
-  font-size: var(--topButtonClickSize);
-}
-
-/* Variables that might be commonly used */
-:root {
-  --topButtonNormalSize: 1vw;
-  --topButtonHoverSize: 1.1vw;
-  --topButtonClickSize: .9vw;
-
-  --topButtonNormalColor: rgb(150, 150, 150);
-  --topButtonHoverColor: rgb(180, 180, 180);
-  --topButtonClickColor: rgb(255, 255, 255);
+  color: rgb(70, 70, 210);
+  border-bottom-style: solid;
 }
