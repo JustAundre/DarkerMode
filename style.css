@@ -101,9 +101,9 @@ body {
 
 /* Variables that might be commonly used */
 :root {
-  --topButtonNormalSize: 1.5vw;
-  --topButtonHoverSize: 1.6vw;
-  --topButtonClickSize: 1.4vw;
+  --topButtonNormalSize: 1vw;
+  --topButtonHoverSize: 1.1vw;
+  --topButtonClickSize: .9vw;
 
   --topButtonNormalColor: rgb(150, 150, 150);
   --topButtonHoverColor: rgb(180, 180, 180);
