@@ -3,12 +3,14 @@ body * {
   display: flex;
   position: relative;
   user-select: none;
+  -webkit-user-drag: none;
 }
 
 /* Makes all links use a pointer mouse and have no text decoration */
 a {
   text-decoration: none;
   cursor: pointer;
+  color: inherit;
 }
 
 /* Makes the body element center all things, etc. */
