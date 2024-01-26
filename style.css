@@ -66,7 +66,7 @@ body {
   padding-left: 1vw;
   padding-right: 1vw;
   border-width: 0.1vh;
-  border-radius: 1vw;
+  border-radius: .5vw;
   border-style: dashed;
   font-size: 1.75vw;
   margin-left: 2.5%;
@@ -89,6 +89,8 @@ body {
   border-bottom-width: 0.1vh;
   border-bottom-style: none;
   font-size: 1.5vw;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 .packDetailsButton:hover, .termsOfUse:hover {
   color: rgb(97, 97, 210);
