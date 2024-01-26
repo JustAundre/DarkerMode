@@ -48,6 +48,7 @@ body {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.1));
   height: 80%;
   width: 30%;
+  text-align: center;
 }
 .homeButton:hover {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.2));
