@@ -49,12 +49,22 @@ body {
   height: 80%;
   width: 30%;
   text-align: center;
+  display: block;
+  position: relative;
+  transition: .1s ease-in-out;
+  line-height: 5vh;
+  font-size: 2.5vw;
+  color: var(--topButtonNormalColor);
 }
 .homeButton:hover {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.2));
+  color: var(--topButtonHoverColor);
+  font-size: var(--topButtonHoverSize);
 }
 .homeButton:active {
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
+  color: var(--topButtonClickColor);
+  font-size: var(--topButtonNormalSize);
 }
 
 /* Properties unique to the "TOS" button */
