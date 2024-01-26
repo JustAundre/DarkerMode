@@ -82,7 +82,7 @@ body {
 /* Unique properties of the home button. */
 .homeIcon {
   transition: .2s ease-in-out;
-  width: 100%;
+  width: 12.5vw;
   color: rgb(70, 70, 210);
   line-height: 5vh;
   padding-left: 1vw;
