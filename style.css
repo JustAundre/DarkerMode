@@ -40,7 +40,7 @@ body {
   height: 7%;
   width: 100%;
   top: 0%;
-  background: rgb(10, 5, 0);
+  background: transparent;
   border-bottom: 0.5px solid rgb(15, 10, 5);
   display: flex;
   place-content: center;
@@ -82,7 +82,7 @@ body {
 }
 
 /* Properties all buttons share. */
-.packDetailsButton, .termsOfUse, .changelogButton {
+.extraButtons * {
   color: white;
   height: 100%;
   width: 12.5%;
@@ -101,12 +101,13 @@ body {
   margin-left: 1%;
   margin-right: 1%;
 }
-.packDetailsButton:hover, .termsOfUse:hover, .changelogButton:hover {
+.extraButtons *:hover {
   color: rgb(97, 97, 210);
   cursor: pointer;
   border-bottom-style: solid;
+  background: linear-gradient(to top, rgba(120, 120, 255, .25), transparent);
 }
-.packDetailsButton:active, .termsOfUse:active, .changelogButton:active {
+.extraButtons *:active {
   color: rgb(70, 70, 210);
   border-bottom-style: solid;
 }
