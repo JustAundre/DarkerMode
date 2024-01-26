@@ -43,65 +43,69 @@ body {
   justify-content: flex-start;
 }
 
+/* Properties unique to the "Home" button */
 .homeButton {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.1));
+  height: 80%;
+  width: 30%;
 }
-
 .homeButton:hover {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(120, 30, 255, 0.2));
 }
-
 .homeButton:active {
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
 }
 
+/* Properties unique to the "TOS" button */
 .termsOfUse {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.1));
 }
-
 .termsOfUse:hover {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(50, 30, 255, 0.2));
 }
-
 .termsOfUse:active {
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
 }
 
+/* Properties unique to the "Details" button */
 .packDetailsButton {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(255, 255, 0, 0.1));
 }
-
 .packDetailsButton:hover {
   background: linear-gradient(to top, rgb(10, 10, 10), rgba(255, 255, 0, 0.2));
 }
-
 .packDetailsButton:active {
   background: radial-gradient(rgba(255, 255, 255, .05), rgb(10, 10, 10));
 }
 
-.homeButton, .packDetailsButton, .termsOfUse {
+/* Properties all buttons share. */
+.packDetailsButton, .termsOfUse {
+  color: var(--topButtonNormalColor);
   height: 100%;
-  width: calc(100% / 3);
+  width: 7.5%;
   text-align: center;
   display: block;
   position: relative;
   transition: .1s ease-in-out;
   line-height: 5vh;
 }
-
-.packDetailsButton:hover, .homeButton:hover, .termsOfUse:hover {
-  color: rgb(150, 150, 150);
+.packDetailsButton:hover, .termsOfUse:hover {
+  color: var(--topButtonHoverColor);
   cursor: pointer;
   font-size: var(--topButtonHoverSize);
 }
-
-.packDetailsButton:active, .homeButton:active, .termsOfUse:active {
-  color: rgb(255, 255, 255);
+.packDetailsButton:active, .termsOfUse:active {
+  color: var(--topButtonNormalColor);
   font-size: var(--topButtonClickSize);
 }
 
+/* Variables that might be commonly used */
 :root {
-  --topButtonClickSize: 1.4vw;
-  --topButtonHoverSize: 1.6vw;
   --topButtonNormalSize: 1.5vw;
+  --topButtonHoverSize: 1.6vw;
+  --topButtonClickSize: 1.4vw;
+
+  --topButtonNormalColor: rgb(150, 150, 150);
+  --topButtonHoverColor: rgb(180, 180, 180);
+  --topButtonClickColor: rgb(255, 255, 255);
 }
