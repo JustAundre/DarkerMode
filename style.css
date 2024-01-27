@@ -157,5 +157,6 @@ body {
   .noMobileImg {
     width: 25vw;
     height: 42.5vw;
+    fill: white;
   }
 }
