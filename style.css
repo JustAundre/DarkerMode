@@ -8,7 +8,6 @@ body *, body {
   display: flex;
   position: relative;
   color: inherit;
-  font-size: inherit;
   justify-content: center;
   align-items: center;
   user-select: none;
@@ -34,28 +33,6 @@ body {
   font-size: 16px;
 }
 
-/* Properties to line everything up in the actual app. */
-.appContainer {
-  margin-top: 7vh;
-  width: 90%;
-  height: 87%;
-  position: absolute;
-  justify-content: flex-start;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-  padding-left: 5vw;
-  padding-right: 5vw;
-}
-
-/* Properties unique to the "About Me" Section */
-.aboutMe {
-  width: 20%;
-  height: 80%;
-  border-radius: .5vw;
-  border-color: rgb(70, 70, 210);
-  border-style: dashed;
-}
-
 /* Properties to line everything up in the top div. */
 .topFooter {
   position: fixed;
@@ -64,6 +41,19 @@ body {
   top: 0%;
   border-bottom: 0.1vh solid rgb(20, 15, 10);
   justify-content: flex-start;
+}
+
+/* Properties to line everything up in the actual app. */
+.appContainer {
+  margin-top: 7vh;
+  width: 90vw;
+  height: 87vh;
+  position: absolute;
+  justify-content: flex-start;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 /* Properties to line up items correctly on the top div. */
@@ -78,30 +68,6 @@ body {
   max-width: 100vw;
   justify-content: flex-start;
   margin-left: 2.5%;
-}
-
-/* Unique properties of the home button. */
-.homeIcon {
-  transition: .2s ease-in-out;
-  width: 12.5vw;
-  color: rgb(70, 70, 210);
-  line-height: 5vh;
-  padding-right: 1vw;
-  padding-left: 1vw;
-  padding-top: .25vh;
-  padding-bottom: .25vh;
-  border-width: .1vh;
-  border-radius: .5vw;
-  border-style: dashed;
-  font-size: 1.35vw;
-  margin-left: 2.5%;
-  cursor: pointer;
-}
-.homeIcon:hover {
-  font-size: 1.4vw;
-}
-.homeIcon:active {
-  font-size: 1.3vw;
 }
 
 /* Properties all buttons share. */
@@ -131,6 +97,40 @@ body {
 .rightAlign *:active {
   color: rgb(70, 70, 210);
   border-bottom-style: solid;
+}
+
+/* Unique properties of the home button. */
+.homeIcon {
+  transition: .2s ease-in-out;
+  width: 12.5vw;
+  color: rgb(70, 70, 210);
+  line-height: 5vh;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  padding-top: .25vh;
+  padding-bottom: .25vh;
+  border-width: calc(1vh / 3);
+  border-radius: .5vw;
+  border-style: dashed;
+  font-size: 1.35vw;
+  margin-left: 2.5%;
+  cursor: pointer;
+}
+.homeIcon:hover {
+  font-size: 1.4vw;
+}
+.homeIcon:active {
+  font-size: 1.3vw;
+}
+
+/* Properties unique to the "About Me" Section */
+.aboutMe {
+  width: 20%;
+  height: 80%;
+  border-radius: .5vw;
+  border-width: calc(1vh / 3);
+  border-color: rgb(70, 70, 210);
+  border-style: dashed;
 }
 
 /* Detects if you're a mobile user and disables the website */
