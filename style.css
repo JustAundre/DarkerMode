@@ -140,23 +140,16 @@ body {
   }
 
   .noMobile {
-    display: static;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to top, rgb(20, 15, 10), rgb(10, 5, 0));
     color: rgb(148, 46, 46);
-  }
-}
-@media screen and (orientation: portrait) {
-  .topFooter, .appContainer {
-    display: none;
+    font-size: 1vw;
   }
 
-  .noMobile {
-    display: static;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to top, rgb(20, 15, 10), rgb(10, 5, 0));
-    color: rgb(148, 46, 46);
+  .noMobileImg {
+    width: 25vw;
+    height: 42.5vw;
   }
 }
