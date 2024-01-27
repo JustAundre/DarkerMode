@@ -104,7 +104,7 @@ body {
 /* Properties all buttons share. */
 .rightAlign * {
   height: 100%;
-  width: 12.5%;
+  width: 12.5vw;
   color: white;
   font-size: 1.5vw;
   line-height: 8vh;
@@ -131,12 +131,12 @@ body {
 }
 
 /* Detects if you're a mobile user and disables the website */
-@media only screen and (max-aspect-ratio: 21:9) {
+@media screen and (max-aspect-ratio: 4/3) {
   .topFooter, .appContainer {
     display: none;
   }
 
-  .noPhone {
+  .noMobile {
     display: static;
     width: 100vw;
     height: 100vh;
