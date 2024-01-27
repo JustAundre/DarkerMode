@@ -149,6 +149,11 @@ body {
     flex-wrap: wrap;
   }
 
+  .mobileError {
+    width: 80vw;
+    height: 20vh;
+  }
+
   .noMobileImg {
     width: 25vw;
     height: 42.5vw;

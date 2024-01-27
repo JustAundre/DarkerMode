@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="noPhoneImg">
+<svg xmlns="http://www.w3.org/2000/svg" class="noPhoneImg" id="noPhoneImg">
   <style type="text/css">
     .st0 {
       fill: white;
