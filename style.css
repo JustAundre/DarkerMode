@@ -1,5 +1,5 @@
 /* Sets the noPhone div to not display by default */
-.noPhone, .noPhone * {
+.noMobile, .noMobile * {
   display: none;
 }
 
@@ -156,7 +156,7 @@ body {
 
   .noMobileImg {
     width: 40vw;
-    height: 60vh;
+    height: 42.5vh;
   }
 
   .noMobileImg svg {
