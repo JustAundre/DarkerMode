@@ -85,9 +85,11 @@ body {
   width: 12.5vw;
   color: rgb(70, 70, 210);
   line-height: 5vh;
-  padding-left: 1vw;
   padding-right: 1vw;
-  border-width: 0.1vh;
+  padding-left: 1vw;
+  padding-top: .25vh;
+  padding-bottom: .25vh;
+  border-width: .1vh;
   border-radius: .5vw;
   border-style: dashed;
   font-size: 1.35vw;
