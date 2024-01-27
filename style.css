@@ -155,8 +155,11 @@ body {
   }
 
   .noMobileImg {
-    width: 25vw;
-    height: 42.5vw;
-    fill: white;
+    width: 40vw;
+    height: 60vh;
+  }
+
+  .noMobileImg svg {
+    fill: brown;
   }
 }
