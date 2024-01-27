@@ -145,7 +145,8 @@ body {
     height: 100vh;
     background: linear-gradient(to top, rgb(20, 15, 10), rgb(10, 5, 0));
     color: rgb(148, 46, 46);
-    font-size: 1vw;
+    font-size: 3.5vh;
+    flex-wrap: wrap;
   }
 
   .noMobileImg {
