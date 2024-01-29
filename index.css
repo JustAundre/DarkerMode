@@ -94,7 +94,7 @@ body {
 .rightAlign [active="true"] {
   color: rgb(70, 70, 210);
   border-bottom-style: solid;
-  background: linear-gradient(to top, rgba(120, 120, 255, .25), transparent);
+  background: linear-gradient(to top, rgba(120, 120, 255, .125), transparent);
 }
 
 /* Unique properties of the home button. */
