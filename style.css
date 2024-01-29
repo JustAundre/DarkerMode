@@ -1,6 +1,5 @@
 /* Sets the noPhone div to not display by default */
-.noMobile,
-.noMobile * {
+.noMobile {
   display: none;
 }
 
@@ -137,7 +136,7 @@ body {
 
 /* Detects if you're a mobile user and disables the website */
 @media screen and (max-aspect-ratio: 4/3) {
-  .topFooter, .appContainer {
+  body * {
     display: none;
   }
 
@@ -152,12 +151,7 @@ body {
     height: 100vh;
   }
 
-  .noMobile * {
-    display: inherit;
-    position: relative;
-  }
-
-  .mobileError {
+  .mobileMsg {
     width: 80vw;
     height: 20vh;
   }
