@@ -51,10 +51,6 @@ body {
   height: 87vh;
   position: absolute;
   justify-content: flex-start;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-  padding-left: 5vw;
-  padding-right: 5vw;
 }
 
 /* Properties to line up items correctly on the top div. */
@@ -126,14 +122,14 @@ body {
 
 /* Properties unique to the "About Me" Section */
 .aboutMe {
-  width: 25%;
   height: 80%;
+  width: 25%;
   border-radius: .5vw;
   border-width: calc(1vh / 3);
   border-color: rgb(70, 70, 210);
   border-style: dashed;
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* Properties unique to the "Download Pack" Section */
@@ -144,8 +140,8 @@ body {
   border-width: calc(1vh / 3);
   border-color: rgb(70, 70, 210);
   border-style: dashed;
-  margin-right: 5%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* Detects if you're a mobile user and disables the website */
