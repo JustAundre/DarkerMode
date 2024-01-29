@@ -91,9 +91,10 @@ body {
   border-bottom-style: solid;
   background: linear-gradient(to top, rgba(120, 120, 255, .25), transparent);
 }
-.rightAlign *:active {
+.rightAlign [active="true"] {
   color: rgb(70, 70, 210);
   border-bottom-style: solid;
+  background: linear-gradient(to top, rgba(120, 120, 255, .25), transparent);
 }
 
 /* Unique properties of the home button. */
@@ -145,7 +146,7 @@ body {
 }
 
 /* Detects if you're a mobile user and disables the website */
-@media screen and (max-aspect-ratio: 4/3) {
+@media screen and (max-aspect-ratio: 16/9) {
   body * {
     display: none;
   }
