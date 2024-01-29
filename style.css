@@ -134,6 +134,16 @@ body {
   border-style: dashed;
 }
 
+/* Properties unique to the "Download Pack" Section */
+.downloadPack {
+  height: 80%;
+  width: 75%;
+  border-radius: .5vw;
+  border-width: calc(1vh / 3);
+  border-color: rgb(70, 70, 210);
+  border-style: dashed;
+}
+
 /* Detects if you're a mobile user and disables the website */
 @media screen and (max-aspect-ratio: 4/3) {
   body * {
@@ -149,6 +159,10 @@ body {
     background: linear-gradient(to top, rgb(20, 15, 10), rgb(10, 5, 0));
     width: 100vw;
     height: 100vh;
+  }
+
+  .noMobile * {
+    display: inherit;
   }
 
   .mobileMsg {
