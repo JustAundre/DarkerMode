@@ -1,10 +1,12 @@
 /* Sets the noPhone div to not display by default */
-.noMobile, .noMobile * {
+.noMobile,
+.noMobile * {
   display: none;
 }
 
 /* Changes 3 default properties, and removes user-select/drag */
-body *, body {
+body *,
+body {
   display: flex;
   position: relative;
   color: inherit;
