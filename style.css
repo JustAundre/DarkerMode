@@ -47,7 +47,7 @@ body {
 /* Properties to line everything up in the actual app. */
 .appContainer {
   margin-top: 7vh;
-  width: 90vw;
+  width: 100vw;
   height: 87vh;
   position: absolute;
   justify-content: flex-start;
@@ -132,6 +132,8 @@ body {
   border-width: calc(1vh / 3);
   border-color: rgb(70, 70, 210);
   border-style: dashed;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 /* Properties unique to the "Download Pack" Section */
@@ -142,6 +144,8 @@ body {
   border-width: calc(1vh / 3);
   border-color: rgb(70, 70, 210);
   border-style: dashed;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 /* Detects if you're a mobile user and disables the website */
