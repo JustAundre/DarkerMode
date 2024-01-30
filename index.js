@@ -1,6 +1,6 @@
-let packDetailsButton = document.getElementById(packDetailsButton)
-let termsOfUse = document.getElementById(termsOfUse)
-let changelogButton = document.getElementById(changelogButton)
+let packDetailsButton = document.getElementById("packDetailsButton");
+let termsOfUse = document.getElementById("termsOfUse");
+let changelogButton = document.getElementById("changelogButton");
 
 /* What the site will do if the corresponding buttons are clicked. */
 function detailsClick() {
