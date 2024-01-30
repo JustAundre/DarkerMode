@@ -1,22 +1,21 @@
-let packDetailsButton = document.getElementById("packDetailsButton");
-let termsOfUse = document.getElementById("termsOfUse");
-let changelogButton = document.getElementById("changelogButton");
+let packDetails = document.getElementById("packDetailsId");
+let permissions = document.getElementById("termsOfUseId");
+let changelog = document.getElementById("changelogId");
 
-/* What the site will do if the corresponding buttons are clicked. */
 function detailsClick() {
-    packDetailsButton.innertext("-Details-")
-    termsOfUse.innertext("Permissions")
-    changelogButton.innertext("Changelog")
+  packDetails.textContent = "-Details-";
+  permissions.textContent = "Permissions";
+  changelog.textContent = "Changelog";
 }
 
 function permissionsClick() {
-    packDetailsButton.innertext("Details")
-    termsOfUse.innertext("-Permissions-")
-    changelogButton.innertext("Changelog")
+  packDetails.textContent = "Details";
+  permissions.textContent = "-Permissions-";
+  changelog.textContent = "Changelog";
 }
 
 function changelogClick() {
-    packDetailsButton.innertext("Details")
-    termsOfUse.innertext("Permissions")
-    changelogButton.innertext("-Changelog-")
+  packDetails.textContent = "Details";
+  permissions.textContent = "Permissions";
+  changelog.textContent = "-Changelog-";
 }
