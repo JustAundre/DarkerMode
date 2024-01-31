@@ -4,7 +4,6 @@ let changelog = document.getElementById("changelogId");
 
 
 
-
 function detailsClick() {
   // Changes the text to show an indicator of selection.
   packDetails.textContent = "-Details-";
