@@ -44,15 +44,6 @@ body {
   justify-content: flex-start;
 }
 
-/* Properties to line everything up in the actual app. */
-.appContainer {
-  margin-top: 7vh;
-  width: 100vw;
-  height: 87vh;
-  position: absolute;
-  justify-content: flex-start;
-}
-
 /* Properties to line up items correctly on the top div. */
 .rightAlign {
   width: 100vw;
@@ -112,6 +103,15 @@ body {
 }
 .homeIcon:active {
   font-size: 1.15vw;
+}
+
+/* Properties to line everything up in the actual app. */
+.appContainer {
+  margin-top: 7vh;
+  width: 100vw;
+  height: 87vh;
+  position: absolute;
+  justify-content: flex-start;
 }
 
 /* Properties unique to the "About Me" Section */
