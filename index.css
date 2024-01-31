@@ -91,7 +91,7 @@ body {
   border-bottom-style: solid;
   background: linear-gradient(to top, rgba(120, 120, 255, .25), transparent);
 }
-.rightAlign [active="true"] {
+.rightAlign *:active, .rightAlign [active="true"] {
   color: rgb(70, 70, 210);
   border-bottom-style: solid;
   background: linear-gradient(to top, rgba(120, 120, 255, .125), transparent);
