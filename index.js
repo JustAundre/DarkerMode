@@ -6,12 +6,12 @@ let changelog = document.getElementById("changelogId");
 
 
 function detailsClick() {
-  // Changes the text to show an indicator of being selected.
+  // Changes the text to show an indicator of selection.
   packDetails.textContent = "-Details-";
   permissions.textContent = "Permissions";
   changelog.textContent = "Changelog";
 
-  // Changes the default button css to indicate it is selected.
+  // Changes the default button CSS to indicate it is selected.
   packDetails.setAttribute("active", true)
   permissions.setAttribute("active", false)
   changelog.setAttribute("active", false)
@@ -20,12 +20,12 @@ function detailsClick() {
 
 
 function permissionsClick() {
-    // Changes the text to show an indicator of being selected.
+    // Changes the text to show an indicator of selection.
   packDetails.textContent = "Details";
   permissions.textContent = "-Permissions-";
   changelog.textContent = "Changelog";
 
-  // Changes the default button css to indicate it is selected.
+  // Changes the default button CSS to indicate it is selected.
   packDetails.setAttribute("active", false)
   permissions.setAttribute("active", true)
   changelog.setAttribute("active", false)
@@ -34,12 +34,12 @@ function permissionsClick() {
 
 
 function changelogClick() {
-    // Changes the text to show an indicator of being selected.
+    // Changes the text to show an indicator of selection.
   packDetails.textContent = "Details";
   permissions.textContent = "Permissions";
   changelog.textContent = "-Changelog-";
 
-  // Changes the default button css to indicate it is selected.
+  // Changes the default button CSS to indicate it is selected.
   packDetails.setAttribute("active", false)
   permissions.setAttribute("active", false)
   changelog.setAttribute("active", true)
