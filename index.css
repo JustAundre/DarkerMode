@@ -1,6 +1,8 @@
 /* Sets the noPhone div to not display by default */
 .noMobile {
   display: none;
+  opacity: 0;
+  transition: 1s ease-in-out;
 }
 
 /* Changes 3 default properties, and removes user-select/drag */
@@ -145,6 +147,7 @@ body {
   }
 
   .noMobile {
+    opacity: 1;
     position: fixed;
     display: flex;
     color: rgb(148, 46, 46);
