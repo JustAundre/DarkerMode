@@ -29,7 +29,7 @@ body {
   position: unset;
   height: 100vh;
   margin: 0px;
-  background: rgb(14, 14, 22);
+  background: rgb(var(--bg-color));
   font-family: "Comfortaa";
   font-size: 16px;
 }
@@ -40,7 +40,7 @@ body {
   height: 7vh;
   width: 100%;
   top: 0%;
-  border-bottom: 0.33vh solid rgb(70, 70, 210);
+  border-bottom: 0.33vh solid rgb(var(--accent-color));
   justify-content: flex-start;
 }
 
@@ -72,22 +72,22 @@ body {
   border-bottom-style: none;
 }
 .rightAlign *:hover {
-  color: rgb(97, 97, 210);
+  color: rgb(var(--accent-color));
   cursor: pointer;
   border-bottom-style: solid;
-  background: linear-gradient(to top, rgb(35, 35, 54, .25), transparent);
+  background: linear-gradient(to top, rgb(var(--accent-color), .5), transparent);
 }
 .rightAlign *:active, .rightAlign [active=""] {
-  color: rgb(70, 70, 210);
+  color: rgb(var(--accent-color));
   border-bottom-style: solid;
-  background: linear-gradient(to top, rgb(35, 35, 54, .125), transparent);
+  background: linear-gradient(to top, rgb(var(--accent-color), .25), transparent);
 }
 
 /* Unique properties of the home button. */
 .homeIcon {
   transition: .2s ease-in-out;
   width: 12.5vw;
-  color: rgb(70, 70, 210);
+  color: rgb(var(--accent-color));
   line-height: 6vh;
   padding-right: 1vw;
   padding-left: 1vw;
@@ -120,7 +120,7 @@ body {
   width: 25%;
   border-radius: .5vw;
   border-width: 0.33vh;
-  border-color: rgb(70, 70, 210);
+  border-color: rgb(var(--accent-color));
   border-style: dashed;
   margin-left: 5%;
   margin-right: 5%;
@@ -132,7 +132,7 @@ body {
   width: 75%;
   border-radius: .5vw;
   border-width: 0.33vh;
-  border-color: rgb(70, 70, 210);
+  border-color: rgb(var(--accent-color));
   border-style: dashed;
   margin-left: 5%;
   margin-right: 5%;
@@ -173,4 +173,9 @@ body {
     width: 40vw;
     height: 42.5vh;
   }
+}
+
+:root {
+  --bg-color: 5, 0, 0;
+  --accent-color: 70, 70, 210;
 }
