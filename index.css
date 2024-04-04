@@ -87,13 +87,8 @@ body {
 .homeIcon {
   transition: .2s ease-in-out;
   width: 12.5vw;
-  color: rgb(var(--accent-color));
-  line-height: 6vh;
-  padding-right: 1vw;
-  padding-left: 1vw;
-  border-width: 0.33vh;
-  border-radius: .5vw;
-  border-style: dashed;
+  height: 100%;
+  background: url('/images/DM-Logo.png');
   font-size: 1.25vw;
   margin-left: 2.5%;
   cursor: pointer;
